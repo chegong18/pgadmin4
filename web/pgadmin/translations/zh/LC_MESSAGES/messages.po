@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: PgAdmin4\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-10-09 17:59+0530\n"
-"PO-Revision-Date: 2020-11-05 19:22+0800\n"
+"PO-Revision-Date: 2020-11-06 08:19+0800\n"
 "Last-Translator: CheGong18 <chegong18@wo.cn>\n"
 "Language: zh\n"
 "Language-Team: zh\n"
@@ -12703,9 +12703,12 @@ msgstr "无法解密 SSH 隧道密码。\n"
 "错误: {0}"
 
 #: pgadmin/utils/driver/psycopg2/server_manager.py:579
-msgid "Failed to create the SSH tunnel.\n"
+msgid "can not Failed to create the SSH tunnel.\n"
 "Error: {0}"
-msgstr ""
+msgstr "建立 SSH 隧道失败.\n"
+"错误: {0}"
+
+
 
 #~ msgid "Script - "
 #~ msgstr "脚本 - "
@@ -12819,9 +12822,6 @@ msgstr ""
 
 #~ msgid "Composite types require at least two members."
 #~ msgstr "复合类型要求至少两个成员。"
-
-#~ msgid "Are you sure you want to drop %s \"%s\"?"
-#~ msgstr "是否确实要删除%s\"%s\"？"
 
 #~ msgid "DROP %s?"
 #~ msgstr "删除%s 么？"
@@ -13204,35 +13204,11 @@ msgstr ""
 #~ " be modified"
 #~ msgstr ""
 
-#~ msgid "Please connect to the selected server to view the graph."
-#~ msgstr "请连接到所选的服务器，以便查看图表。"
-
 #~ msgid "Please connect to the selected database to view the table."
 #~ msgstr "请连接到选定的数据库以查看表。"
 
 #~ msgid "Please connect to the selected database to view the graph."
 #~ msgstr "请连接到选定的数据库以查看图形。"
-
-#~ msgid "An error occurred whilst rendering the graph."
-#~ msgstr "渲染图形时出错。"
-
-#~ msgid "Database sessions"
-#~ msgstr "数据库会话"
-
-#~ msgid "Transactions per second"
-#~ msgstr "每秒事务"
-
-#~ msgid "Tuples in"
-#~ msgstr "元组插入"
-
-#~ msgid "Tuples out"
-#~ msgstr "元组读取"
-
-#~ msgid "Block I/O"
-#~ msgstr "数据块 I/O"
-
-#~ msgid "Server sessions"
-#~ msgstr "服务器会话"
 
 #~ msgid "Successfully compare the specified schemas."
 #~ msgstr ""
