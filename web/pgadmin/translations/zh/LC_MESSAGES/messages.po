@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: PgAdmin4\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2020-10-09 17:59+0530\n"
-"PO-Revision-Date: 2020-11-02 21:33+0800\n"
+"PO-Revision-Date: 2020-11-05 19:22+0800\n"
 "Last-Translator: CheGong18 <chegong18@wo.cn>\n"
 "Language: zh\n"
 "Language-Team: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
 "X-Generator: Poedit 2.4.1\n"
@@ -788,7 +788,7 @@ msgstr " --定义不完整"
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:51
 #: pgadmin/browser/server_groups/servers/databases/casts/static/js/cast.js:20
 msgid "Casts"
-msgstr "强制转换"
+msgstr "转换"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:314
 msgid "Could not find the specified cast."
@@ -811,12 +811,10 @@ msgid "Could not find the specified cast on the server."
 msgstr "在服务器上找不到指定的强制转换。"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:698
-#, fuzzy
 msgid "Could not generate reversed engineered SQL for the cast."
 msgstr "无法为转换生成反向工程SQL。"
 
 #: pgadmin/browser/server_groups/servers/databases/casts/__init__.py:703
-#, fuzzy
 msgid "Could not generate reversed engineered SQL for the cast node."
 msgstr "无法为转换节点生成反向工程 SQL。"
 
@@ -1296,7 +1294,6 @@ msgid "Owner"
 msgstr "所有者"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:110
-#, fuzzy
 msgid "System event trigger?"
 msgstr "系统事件触发器？"
 
@@ -1309,7 +1306,6 @@ msgstr "触发已启用？"
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:119
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:197
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:199
-#, fuzzy
 msgid "Enable"
 msgstr "启用"
 
@@ -1327,12 +1323,10 @@ msgid "Disable"
 msgstr "禁用"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:121
-#, fuzzy
 msgid "Replica"
 msgstr "副本"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:122
-#, fuzzy
 msgid "Always"
 msgstr "总是"
 
@@ -1351,22 +1345,18 @@ msgid "Event"
 msgstr "事件"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:133
-#, fuzzy
 msgid "DDL COMMAND START"
 msgstr "DDL COMMAND START"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:134
-#, fuzzy
 msgid "DDL COMMAND END"
 msgstr "DDL COMMAND END"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:135
-#, fuzzy
 msgid "SQL DROP"
 msgstr "SQL DROP"
 
 #: pgadmin/browser/server_groups/servers/databases/event_triggers/static/js/event_trigger.js:139
-#, fuzzy
 msgid "When TAG in"
 msgstr "当 TAG 在"
 
@@ -1517,7 +1507,6 @@ msgid "Relocatable?"
 msgstr "可重定位?"
 
 #: pgadmin/browser/server_groups/servers/databases/extensions/static/js/extension.js:232
-#, fuzzy
 msgid "System extension?"
 msgstr "系统扩展？"
 
@@ -1564,42 +1553,34 @@ msgid "Could not find the external table."
 msgstr "找不到外部表。"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:55
-#, fuzzy
 msgid "readable"
 msgstr "可读"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:56
-#, fuzzy
 msgid "writable"
 msgstr "可写入"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:68
-#, fuzzy
 msgid "host {}"
-msgstr "host {}"
+msgstr "主机 {}"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:70
-#, fuzzy
 msgid "per host"
 msgstr "每个主机"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:72
-#, fuzzy
 msgid "master segment"
 msgstr "主段"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:74
-#, fuzzy
 msgid "all segments"
 msgstr "所有段"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:76
-#, fuzzy
 msgid "{} segment"
 msgstr "{} 段"
 
 #: pgadmin/browser/server_groups/servers/databases/external_tables/properties.py:78
-#, fuzzy
 msgid "{} segments"
 msgstr "{} 段"
 
@@ -1639,9 +1620,8 @@ msgid "Could not find the specified foreign server."
 msgstr "找不到指定的外部服务器。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:426
-#, fuzzy
 msgid "The specified foreign server could not be found."
-msgstr "找不到指定的外部服务器。\n"
+msgstr "找不到指定的外部服务器。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/__init__.py:560
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:597
@@ -1713,7 +1693,6 @@ msgstr "值"
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:39
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:42
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:40
-#, fuzzy
 msgid "Please enter an option name."
 msgstr "请输入选项名称。"
 
@@ -1744,7 +1723,6 @@ msgid "Type"
 msgstr "类型"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/static/js/foreign_server.js:153
-#, fuzzy
 msgid "System foreign server?"
 msgstr "系统外部服务器？"
 
@@ -1806,7 +1784,6 @@ msgid "Could not find the specified user mapping."
 msgstr "找不到指定的用户映射。"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/__init__.py:431
-#, fuzzy
 msgid "The specified user mappings could not be found."
 msgstr "找不到指定的用户映射。"
 
@@ -1845,7 +1822,6 @@ msgid "User"
 msgstr "用户"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/foreign_servers/user_mappings/static/js/user_mapping.js:152
-#, fuzzy
 msgid "System user mapping?"
 msgstr "系统用户映射？"
 
@@ -1872,9 +1848,8 @@ msgid "Handler"
 msgstr "处理程序"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:151
-#, fuzzy
 msgid "System foreign data wrapper?"
-msgstr "系统外部数据包装？"
+msgstr "系统外部数据包装器？"
 
 #: pgadmin/browser/server_groups/servers/databases/foreign_data_wrappers/static/js/foreign_data_wrapper.js:162
 msgid "Validator"
@@ -1911,7 +1886,6 @@ msgid "Language..."
 msgstr "语言..."
 
 #: pgadmin/browser/server_groups/servers/databases/languages/static/js/language.js:152
-#, fuzzy
 msgid "System language?"
 msgstr "系统语言？"
 
@@ -1946,12 +1920,10 @@ msgid "Catalogs"
 msgstr "目录"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:461
-#, fuzzy
 msgid "Could not find the schema in the database.\n"
 "                    It may have been removed by another user."
-msgstr "\n"
-"在数据库中找不到架构。\n"
-"它可能已被其他用户删除。\n"
+msgstr "在数据库中找不到模式。\n"
+"                    它可能已被其他用户删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:520
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:1035
@@ -1959,21 +1931,21 @@ msgid "\n"
 "Could not find the schema in the database.\n"
 "It may have been removed by another user.\n"
 msgstr "\n"
-"在数据库中找不到架构。\n"
+"在数据库中找不到模式。\n"
 "它可能已被其他用户删除。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:566
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:852
 msgid "Could not find the schema in the database. It may have been removed by another user."
-msgstr "在数据库中找不到该架构。可能已被其他用户删除。"
+msgstr "在数据库中找不到该模式。可能已被其他用户删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:719
 msgid "The specified schema could not be found.\n"
-msgstr "找不到指定的架构\n"
+msgstr "找不到指定的模式\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:741
 msgid "Schema dropped"
-msgstr "架构已被删除"
+msgstr "模式已被删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:816
 #: pgadmin/static/js/backform.pgadmin.js:1877
@@ -1981,12 +1953,10 @@ msgid "Definition incomplete."
 msgstr "定义不完整。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/__init__.py:933
-#, fuzzy
 msgid "Could not find the schema in the database.\n"
 "                It may have been removed by another user."
-msgstr "\n"
-"在数据库中找不到架构。\n"
-"它可能已被其他用户删除。\n"
+msgstr "在数据库中找不到模式。\n"
+"                它可能已被其他用户删除。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/__init__.py:47
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/static/js/catalog_object.js:19
@@ -2083,9 +2053,8 @@ msgid "Catalog Object"
 msgstr "类别对象"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/catalog_objects/static/js/catalog_object.js:61
-#, fuzzy
 msgid "System catalog object?"
-msgstr "系统目录对象？"
+msgstr "系统类别对象？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:54
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:22
@@ -2095,7 +2064,7 @@ msgstr "排序规则"
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:470
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:183
 msgid "Definition incomplete. Please provide Locale OR Copy Collation OR LC_TYPE/LC_COLLATE."
-msgstr "定义不完整。请提供区域设置或复制排序规则或LC_TYPE/LC_COLLATE."
+msgstr "定义不完整。请提供区域设置或复制排序规则或 LC_TYPE/LC_COLLATE."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/__init__.py:561
 msgid "Collation dropped"
@@ -2124,7 +2093,6 @@ msgid "LC_TYPE"
 msgstr "LC_TYPE"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/collations/static/js/collation.js:141
-#, fuzzy
 msgid "System collation?"
 msgstr "系统排序规则？"
 
@@ -2162,7 +2130,6 @@ msgid "Domain Constraint..."
 msgstr "域约束..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/domains/domain_constraints/static/js/domain_constraints.js:89
-#, fuzzy
 msgid "System domain constraint?"
 msgstr "系统域约束？"
 
@@ -2325,7 +2292,6 @@ msgid "Foreign Table..."
 msgstr "外部表..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:571
-#, fuzzy
 msgid "System foreign table?"
 msgstr "系统外部表？"
 
@@ -2344,7 +2310,7 @@ msgstr "继承"
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:208
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:812
 msgid "Schema cannot be empty."
-msgstr "架构不能为空。"
+msgstr "模式不能为空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/foreign_tables/static/js/foreign_table.js:669
 msgid "Foreign server cannot be empty."
@@ -2411,9 +2377,8 @@ msgid "Select token"
 msgstr "选择令牌"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:220
-#, fuzzy
 msgid "Add Token"
-msgstr "代币"
+msgstr "增加令牌"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:227
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:541
@@ -2432,7 +2397,6 @@ msgid "FTS Configuration..."
 msgstr "FTS配置..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_configurations/static/js/fts_configuration.js:509
-#, fuzzy
 msgid "System FTS configuration?"
 msgstr "系统 FTS 配置？"
 
@@ -2510,7 +2474,6 @@ msgid "FTS Dictionary..."
 msgstr "FTS 字典..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_dictionaries/static/js/fts_dictionary.js:152
-#, fuzzy
 msgid "System FTS dictionary?"
 msgstr "系统 FTS 字典？"
 
@@ -2555,22 +2518,20 @@ msgid "Could not generate reversed engineered query for the FTS Parser.\n"
 msgstr "无法为FTS解析器生成反向工程查询.{0}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/__init__.py:871
-#, fuzzy
 msgid "Could not generate reversed engineered query for FTS Parser node."
 msgstr "无法为 FTS 解析器节点生成反向工程查询。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:36
 msgid "FTS Parser"
-msgstr "FTS 分析器"
+msgstr "FTS 解析器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:51
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:57
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:63
 msgid "FTS Parser..."
-msgstr "FTS 分析器..."
+msgstr "FTS 解析器..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_parsers/static/js/fts_parser.js:106
-#, fuzzy
 msgid "System FTS parser?"
 msgstr "系统 FTS 解析器？"
 
@@ -2640,7 +2601,6 @@ msgid "FTS Template..."
 msgstr "FTS 模板..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/fts_templates/static/js/fts_template.js:101
-#, fuzzy
 msgid "System FTS template?"
 msgstr "系统 FTS 模板？"
 
@@ -2690,9 +2650,8 @@ msgid "Could not find the function in the database."
 msgstr "在数据库中找不到该函数。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1693
-#, fuzzy
 msgid "The specified function could not be found."
-msgstr "找不到指定的函数。\n"
+msgstr "找不到指定的函数。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/__init__.py:1936
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/procedure.js:24
@@ -2827,9 +2786,8 @@ msgid "Leak proof?"
 msgstr "是否防漏？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:319
-#, fuzzy
 msgid "Support function"
-msgstr "支持功能"
+msgstr "支持函数"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/function.js:339
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:247
@@ -2901,9 +2859,8 @@ msgid "Trigger function..."
 msgstr "触发器函数..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:137
-#, fuzzy
 msgid "System trigger function?"
-msgstr "系统触发功能？"
+msgstr "系统触发函数？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/functions/static/js/trigger_function.js:164
 msgid "trigger"
@@ -3045,14 +3002,12 @@ msgstr "标题"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:155
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:182
-#, fuzzy
 msgid "Updating the package header definition may remove its existing body."
-msgstr "更新包头定义可能会删除其现有正文。"
+msgstr "更新包头定义可能会移除其现有正文。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:157
 #: pgadmin/browser/server_groups/servers/databases/schemas/packages/static/js/package.js:184
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:183
-#, fuzzy
 msgid "Do you want to continue?"
 msgstr "你想继续吗？"
 
@@ -3088,7 +3043,6 @@ msgid "Sequence..."
 msgstr "序列..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/sequences/static/js/sequence.js:133
-#, fuzzy
 msgid "System sequence?"
 msgstr "系统序列？"
 
@@ -3185,9 +3139,8 @@ msgid "Catalog"
 msgstr "类别"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/catalog.js:75
-#, fuzzy
 msgid "System catalog?"
-msgstr "系统分类？"
+msgstr "系统类别？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:152
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:155
@@ -3201,17 +3154,15 @@ msgstr "表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:154
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:229
 msgid "Custom auto-vacuum?"
-msgstr "要自定义自动收缩吗？"
+msgstr "自定义自动-回收？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:175
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:243
-#, fuzzy
 msgid "Autovacuum Enabled?"
-msgstr "启用自动收缩？"
+msgstr "启用自动回收？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:180
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:248
-#, fuzzy
 msgid "Not set"
 msgstr "没有设置"
 
@@ -3279,7 +3230,7 @@ msgstr "TOAST 表"
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:340
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:345
 msgid "Schema..."
-msgstr "架构..."
+msgstr "模式..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/static/js/schema.js:383
 msgid "System schema?"
@@ -3354,20 +3305,19 @@ msgstr "视图"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:127
 msgid "Target schema"
-msgstr "目标架构"
+msgstr "目标模式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:152
 msgid "Target object"
 msgstr "目标对象"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:198
-#, fuzzy
 msgid "System synonym?"
 msgstr "系统同义词？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:212
 msgid "Target schema cannot be empty."
-msgstr "目标架构不能为空."
+msgstr "目标模式不能为空."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/synonyms/static/js/synonym.js:216
 msgid "Target object cannot be empty."
@@ -3378,7 +3328,6 @@ msgid "Could not find the table."
 msgstr "找不到表."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1123
-#, fuzzy
 msgid "\n"
 msgstr "\n"
 
@@ -3397,9 +3346,8 @@ msgid "Trigger(s) have been enabled"
 msgstr "触发器已启用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/__init__.py:1631
-#, fuzzy
 msgid "Table rows counted: {}"
-msgstr "表行计数： {}"
+msgstr "表行计数: {}"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/utils.py:837
 msgid "Table statistics have been reset"
@@ -3450,7 +3398,6 @@ msgstr "继承自表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:345
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:106
-#, fuzzy
 msgid "Length/Precision"
 msgstr "长度/精度"
 
@@ -3469,18 +3416,15 @@ msgid "Storage"
 msgstr "存储"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:539
-#, fuzzy
 msgid "NONE"
 msgstr "NONE"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:540
-#, fuzzy
 msgid "IDENTITY"
 msgstr "IDENTITY"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:548
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:553
-#, fuzzy
 msgid "GENERATED"
 msgstr "GENERATED"
 
@@ -3494,7 +3438,7 @@ msgstr "ALWAYS"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:582
 msgid "BY DEFAULT"
-msgstr "按默认"
+msgstr "BY DEFAULT"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:631
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/partition.utils.js:80
@@ -3526,94 +3470,78 @@ msgid "Column type cannot be empty."
 msgstr "列类型不能为空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:714
-#, fuzzy
 msgid "Length/Precision should not be less than: "
 msgstr "长度/精度不应小于: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:716
-#, fuzzy
 msgid "Length/Precision should not be greater than: "
 msgstr "长度/精度不应大于: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:730
-#, fuzzy
 msgid "Scale should not be less than: "
-msgstr "比例不应小于: "
+msgstr "规模不应小于: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:732
-#, fuzzy
 msgid "Scale should not be greater than: "
 msgstr "规模不应大于: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/columns/static/js/column.js:743
-#, fuzzy
 msgid "Expression value cannot be empty."
 msgstr "表达式值不能为空。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/__init__.py:59
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:25
-#, fuzzy
 msgid "Compound Triggers"
 msgstr "复合触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/__init__.py:606
-#, fuzzy
 msgid "Compound Trigger is dropped"
-msgstr "复合触发器被丢弃"
+msgstr "复合触发器被删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/utils.py:111
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/utils.py:169
-#, fuzzy
 msgid "Could not find the compound trigger in the table."
 msgstr "表中找不到复合触发器。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:38
-#, fuzzy
 msgid "Compound Trigger"
-msgstr "使用 *复合触发器* 对话框创建复合触发器或修改现有复合触发器。*复合触发器* 仅支持 EPAS 服务器 12 及 12 以上。当发生某些事件时，复合触发器将执行指定的代码。"
+msgstr "复合触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:62
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:68
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:74
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:90
-#, fuzzy
 msgid "Compound Trigger..."
-msgstr "使用 *复合触发器* 对话框创建复合触发器或修改现有复合触发器。*复合触发器* 仅支持 EPAS 服务器 12 及 12 以上。当发生某些事件时，复合触发器将执行指定的代码。"
+msgstr "复合触发器..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:80
-#, fuzzy
 msgid "Enable compound trigger"
 msgstr "启用复合触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:85
-#, fuzzy
 msgid "Disable compound trigger"
 msgstr "禁用复合触发器"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:169
-#, fuzzy
 msgid "Disable compound trigger failed"
 msgstr "禁用复合触发器失败"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:198
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:200
-#, fuzzy
 msgid "Enable Replica"
 msgstr "启用副本"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:199
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/triggers/static/js/trigger.js:201
-#, fuzzy
 msgid "Enable Always"
-msgstr "启用总是"
+msgstr "总是启用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:205
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:209
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:223
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:237
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:251
-#, fuzzy
 msgid "FOR Events"
 msgstr "FOR事件"
 
@@ -3667,7 +3595,6 @@ msgid "Specify at least one event."
 msgstr "至少指定一个事件。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/compound_triggers/static/js/compound_trigger.js:349
-#, fuzzy
 msgid "-- Enter any global declarations below:\n"
 "\n"
 "-- BEFORE STATEMENT block. Delete if not required.\n"
@@ -3706,43 +3633,42 @@ msgid "-- Enter any global declarations below:\n"
 "END;"
 msgstr "-- 输入以下任何全局声明：\n"
 "\n"
-"-- 语句块之前。如果不需要，请删除。\n"
-"语句之前是\n"
+"-- BEFORE STATEMENT 块。如果不需要，请删除。\n"
+"BEFORE STATEMENT IS\n"
 "    -- 在此处输入任何本地声明\n"
-"开始\n"
-"    -- 在此处输入任何必需的代码\n"
-"结束;\n"
+"BEGIN\n"
+"    -- 在此处输入任何需要的代码\n"
+"END;\n"
 "\n"
-"-- 语句块后。如果不需要，请删除。\n"
-"语句之后是\n"
+"-- AFTER STATEMENT块。如果不需要，请删除。\n"
+"AFTER STATEMENT IS\n"
 "    -- 在此处输入任何本地声明\n"
-"开始\n"
+"BEGIN\n"
 "    -- 在此处输入任何必需的代码\n"
-"结束;\n"
+"END;\n"
 "\n"
-"-- 在每个行块之前。如果不需要，请删除。\n"
-"在每一行之前\n"
+"-- BEFORE EACH ROW块。如果不需要，请删除。\n"
+"BEFORE EACH ROW IS\n"
 "    -- 在此处输入任何本地声明\n"
-"开始\n"
+"BEGIN\n"
 "    -- 在此处输入任何必需的代码\n"
-"结束;\n"
+"END;\n"
 "\n"
-"-- 在每个行块之后。如果不需要，请删除。\n"
-"每行之后\n"
+"-- AFTER EACH ROW 块。如果不需要，请删除。\n"
+"AFTER EACH ROW IS\n"
 "    -- 在此处输入任何本地声明\n"
-"开始\n"
+"BEGIN\n"
 "    -- 在此处输入任何必需的代码\n"
-"结束;\n"
+"END;\n"
 "\n"
-"-- 而不是每个行块。如果不需要，请删除。\n"
-"而不是每一行是\n"
+"-- INSTEAD OF EACH ROW块。如果不需要，请删除。\n"
+"INSTEAD OF EACH ROW IS\n"
 "    -- 在此处输入任何本地声明\n"
-"开始\n"
+"BEGIN\n"
 "    -- 在此处输入任何必需的代码\n"
-"结束;"
+"END;"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/__init__.py:180
-#, fuzzy
 msgid "Constraints dropped."
 msgstr "约束已删除。"
 
@@ -3752,11 +3678,10 @@ msgstr "Check 约束"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:305
 msgid "Could not find the check constraint."
-msgstr "找不到 check 约束。"
+msgstr "找不到检查约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/__init__.py:435
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/utils.py:170
-#, fuzzy
 msgid "Could not find the check constraint in the table."
 msgstr "在表中找不到检查约束。"
 
@@ -3786,13 +3711,12 @@ msgid "Validate check constraint"
 msgstr "校验检查约束"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:111
-#, fuzzy
 msgid "System check constraint?"
 msgstr "系统检查约束？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/check_constraint/static/js/check_constraint.js:153
 msgid "Don't validate?"
-msgstr "不验证么?"
+msgstr "不做验证么?"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:54
 msgid "Exclusion Constraints"
@@ -3811,17 +3735,16 @@ msgstr "找不到排他约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:526
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/__init__.py:514
-#, fuzzy
 msgid "Could not find required parameter ({})."
 msgstr "找不到所需的参数 ({})。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:690
 msgid "The specified exclusion constraint could not be found.\n"
-msgstr "找不到指定的排除约束。\n"
+msgstr "找不到指定的排他约束。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/__init__.py:710
 msgid "Exclusion constraint dropped."
-msgstr "排除约束被删除."
+msgstr "排他约束被删除."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:38
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/static/js/index.js:97
@@ -3882,9 +3805,8 @@ msgid "Exclusion constraint..."
 msgstr "排除约束..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:675
-#, fuzzy
 msgid "System exclusion constraint?"
-msgstr "系统排除约束？"
+msgstr "系统排他约束？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/exclusion_constraint/static/js/exclusion_constraint.js:693
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/primary_key.js:523
@@ -3999,13 +3921,12 @@ msgstr "本地"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:57
 msgid "Referenced"
-msgstr "已关联"
+msgstr "引用的"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:61
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:907
-#, fuzzy
 msgid "Referenced Table"
-msgstr "选择 *Simple* 以指定单个外键列可能为空;如果任何列为 null，则不需要该行在引用的表中具有匹配项。"
+msgstr "引用表"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:156
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:264
@@ -4038,7 +3959,6 @@ msgid "Validate foreign key"
 msgstr "验证外键"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/foreign_key/static/js/foreign_key.js:722
-#, fuzzy
 msgid "System foreign key?"
 msgstr "系统外键？"
 
@@ -4096,7 +4016,6 @@ msgid "Unique Constraint"
 msgstr "唯一约束"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:532
-#, fuzzy
 msgid "Could not find at least one required parameter ({})."
 msgstr "找不到至少一个必需的参数 ({})。"
 
@@ -4113,12 +4032,10 @@ msgid "Could not find the {} in the table."
 msgstr "在表中找不到 {} ."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:1002
-#, fuzzy
 msgid "primary key"
 msgstr "主键"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/__init__.py:1003
-#, fuzzy
 msgid "unique key"
 msgstr "唯一键"
 
@@ -4138,12 +4055,10 @@ msgid "Unique constraint"
 msgstr "唯一约束"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/utils.py:285
-#, fuzzy
 msgid "Could not find the constraint in the table."
 msgstr "在表中找不到约束。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/primary_key.js:128
-#, fuzzy
 msgid "System primary key?"
 msgstr "系统主键？"
 
@@ -4155,12 +4070,11 @@ msgstr "索引"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/primary_key.js:658
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.js:643
-#, fuzzy, python-format
+#, python-format
 msgid "Please specify columns for %s."
 msgstr "请为%s指定列。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/constraints/index_constraint/static/js/unique_constraint.js:114
-#, fuzzy
 msgid "System unique constraint?"
 msgstr "系统唯一约束？"
 
@@ -4175,9 +4089,8 @@ msgid "Indexes"
 msgstr "索引"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/__init__.py:550
-#, fuzzy
 msgid "You must provide one or more column to create index."
-msgstr "您必须提供一个或多个列才能创建索引。"
+msgstr "你必须提供一个或多个列以创建索引。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/indexes/__init__.py:723
 msgid "Index is dropped"
@@ -4356,9 +4269,8 @@ msgstr "级联截断"
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:79
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:96
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:101
-#, fuzzy
 msgid "Trigger(s)"
-msgstr "*触发*"
+msgstr "触发(s)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/partitions/static/js/partition.js:74
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:96
@@ -4701,30 +4613,25 @@ msgstr "请至少为分区表指定一个键。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/__init__.py:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:25
-#, fuzzy
 msgid "RLS Policies"
 msgstr "RLS 策略"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/__init__.py:519
-#, fuzzy
 msgid "policy dropped"
 msgstr "策略已删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/utils.py:85
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/utils.py:129
-#, fuzzy
 msgid "Could not find the policy in the table."
 msgstr "在表中找不到策略。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:38
-#, fuzzy
 msgid "RLS Policy"
 msgstr "RLS 策略"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:56
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:62
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:69
-#, fuzzy
 msgid "RLS Policy..."
 msgstr "RLS 策略..."
 
@@ -4737,49 +4644,40 @@ msgid "Commands"
 msgstr "命令"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:113
-#, fuzzy
 msgid "Using"
-msgstr "运用"
+msgstr "使用"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:119
-#, fuzzy
 msgid "With check"
-msgstr "检查"
+msgstr "与检查"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:125
-#, fuzzy
 msgid "RLS policy expression"
 msgstr "RLS 策略表达式"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:129
-#, fuzzy
 msgid "Using: "
 msgstr "使用： "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:130
-#, fuzzy
 msgid "This expression will be added to queries that refer to the table if row level security is enabled. Rows for which the expression returns true will be visible. Any rows for which the expression returns false or null will not be visible to the user (in a SELECT), and will not be available for modification (in an UPDATE or DELETE). Such rows are silently suppressed; no error is reported."
-msgstr "如果启用行级安全性，此表达式将添加到引用表的查询中。表达式返回 true 的行将可见。表达式返回 false 或 null 的任何行（在 SELECT 中）将不可见，并且不能用于修改（在更新或删除中）。这样的行被默默的抑制;未报告错误。"
+msgstr "如果启用行级安全性，此表达式将添加到引用表的查询中。表达式返回真(true)的行将可见。表达式返回假(false)或空(null)的任何行（在 SELECT 中）将对用户不可见，并且不能用于修改（在任何UPDATE或DELETE中）。这样的行被静默的阻止;不报告错误。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:132
-#, fuzzy
 msgid "With check: "
-msgstr "检查"
+msgstr "与检查: "
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:133
-#, fuzzy
 msgid "This expression will be used in INSERT and UPDATE queries against the table if row level security is enabled. Only rows for which the expression evaluates to true will be allowed. An error will be thrown if the expression evaluates to false or null for any of the records inserted or any of the records that result from the update."
-msgstr "如果启用行级安全性，则此表达式将用于针对表的 INSERT 和 UPDATE 查询。仅允许表达式计算为 true 的行。如果表达式对插入的任何记录或更新导致的任何记录计算为 false 或 null，则将引发错误。"
+msgstr "如果启用行级安全性，则此表达式将用于针对表的 INSERT 和 UPDATE 查询。仅允许表达式计算为真(true)的行。如果表达式对插入的任何记录或更新导致的任何记录计算为假(false) 或空(null)，则将引发错误。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:190
-#, fuzzy
 msgid "\"USING\" can not be empty once the value is set"
 msgstr "设置值后，\"USING\"不能为空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/row_security_policies/static/js/row_security_policy.js:195
-#, fuzzy
 msgid "\"Withcheck\" can not be empty once the value is set"
-msgstr "设置值后，\"带检查\"不能为空"
+msgstr "设置值后，\"Withcheck\"不能为空"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/__init__.py:45
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/rules/static/js/rule.js:27
@@ -4923,7 +4821,6 @@ msgid "Select to inherit from..."
 msgstr "选择要从其继承..."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:473
-#, fuzzy
 msgid "RLS Policy?"
 msgstr "Rls 策略？"
 
@@ -4944,7 +4841,6 @@ msgid "advanced"
 msgstr "高级"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:494
-#, fuzzy
 msgid "Force RLS Policy?"
 msgstr "强制 RLS 策略？"
 
@@ -4957,12 +4853,10 @@ msgid "Changing 'Of type' will remove column definitions."
 msgstr "更改 \"Of type\" 将删除列定义。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:833
-#, fuzzy
 msgid "Toast tuple target"
 msgstr "Toast 元组目标"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:843
-#, fuzzy
 msgid "Parallel workers"
 msgstr "并行工作器"
 
@@ -4995,12 +4889,10 @@ msgid "Let's say, we want to create a partition table based per year for the col
 msgstr "假设我们要为 \"saledate\" 列创建一个基于每年的分区表,其数据类型为\"date/timestamp\", 然后我们需要将表达式指定为 \"extract(YEAR from saledate)\" 作为分区键。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1253
-#, fuzzy
 msgid "Check Policy?"
 msgstr "检查策略？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/tables/static/js/table.js:1254
-#, fuzzy
 msgid "Please check if any policy exist. If no policy exists for the table, a default-deny policy is used, meaning that no rows are visible or can be modified by other users"
 msgstr "请检查是否存在任何策略。如果表不存在策略，则使用默认拒绝策略，这意味着其他用户看不到或可以修改任何行"
 
@@ -5452,24 +5344,24 @@ msgid "Please specify the type."
 msgstr "请指定类型."
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:213
-#, fuzzy, python-format
+#, python-format
 msgid "Length/Precision should not be less than %s."
 msgstr "长度/精度不应小于%s。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:215
-#, fuzzy, python-format
+#, python-format
 msgid "Length/Precision should not be greater than %s."
 msgstr "长度/精度不应大于%s。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:226
-#, fuzzy, python-format
+#, python-format
 msgid "Scale should not be less than %s."
-msgstr "比例不应小于%s。"
+msgstr "规模不应小于%s。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:228
-#, fuzzy, python-format
+#, python-format
 msgid "Scale should not be greater than %s."
-msgstr "缩放不应大于%s。"
+msgstr "规模不应大于%s。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:275
 #: pgadmin/browser/server_groups/servers/databases/schemas/types/static/js/type.js:281
@@ -5655,9 +5547,8 @@ msgstr "视图"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:142
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:155
-#, fuzzy
 msgid "Refresh Materialized View"
-msgstr "刷新实例视图"
+msgstr "刷新物化视图"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:145
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:106
@@ -5670,27 +5561,22 @@ msgid "With data"
 msgstr "包括数据"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:149
-#, fuzzy
 msgid "Concurrently"
 msgstr "并发"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:158
-#, fuzzy
 msgid "Refresh Materialized View ({0})"
-msgstr "刷新实体视图 ({0})"
+msgstr "刷新物化视图 ({0})"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:161
-#, fuzzy
 msgid "WITH NO DATA"
 msgstr "WITH NO DATA"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:163
-#, fuzzy
 msgid "WITH DATA"
 msgstr "WITH DATA"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:166
-#, fuzzy
 msgid "CONCURRENTLY"
 msgstr "CONCURRENTLY"
 
@@ -5709,7 +5595,6 @@ msgid "View dropped"
 msgstr "视图已删除"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:1696
-#, fuzzy
 msgid "\n"
 "-- Changing the columns in a view requires dropping and re-creating the view.\n"
 "-- This may fail if other objects are dependent upon this view,\n"
@@ -5718,7 +5603,7 @@ msgid "\n"
 msgstr "\n"
 "-- 更改视图中的列需要删除和重新创建视图。\n"
 "-- 如果其他对象依赖于此视图，则可能会失败，\n"
-"-- 或者可能导致过程函数失败，如果它们不修改为\n"
+"-- 或者可能导致过程函数失败，如果它们不修改为了\n"
 "- - 考虑这些变化。\n"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2191
@@ -5735,9 +5620,8 @@ msgid "Please connect to the server first."
 msgstr "请先连接到服务器。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2264
-#, fuzzy
 msgid "Materialized view refresh job created."
-msgstr "已创建实体视图刷新作业。"
+msgstr "已创建物化视图刷新作业。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/__init__.py:2315
 #: pgadmin/tools/backup/__init__.py:427 pgadmin/tools/backup/__init__.py:531
@@ -5770,12 +5654,10 @@ msgid "With no data (concurrently)"
 msgstr "不包含数据(并发)"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:164
-#, fuzzy
 msgid "System materialized view?"
-msgstr "系统实体视图？"
+msgstr "系统物化视图？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:181
-#, fuzzy
 msgid "Updating the definition will drop and re-create the materialized view. It may result in loss of information about its dependent objects."
 msgstr "更新定义将删除并重新创建物化视图。它可能会导致有关其从属对象的信息丢失。"
 
@@ -5837,9 +5719,8 @@ msgstr "找不到实用程序"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:367
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:374
-#, fuzzy
 msgid "Failed to create materialized view refresh job."
-msgstr "无法创建实现视图刷新作业。"
+msgstr "创建物化视图刷新作业失败。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/mview.js:380
 #: pgadmin/tools/backup/static/js/backup_dialog.js:72
@@ -5872,23 +5753,16 @@ msgid "Cascaded"
 msgstr "级联"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:192
-#, fuzzy
 msgid "Changing the columns in a view requires dropping and re-creating the view. This may fail if other objects are dependent upon this view, or may cause procedural functions to fail if they are not modified to take account of the changes."
-msgstr "\n"
-"-- 更改视图中的列需要删除和重新创建视图。\n"
-"-- 如果其他对象依赖于此视图，则可能会失败，\n"
-"-- 或者可能导致过程函数失败，如果它们不修改为\n"
-"- - 考虑这些变化。\n"
+msgstr "更改视图中的列需要删除和重新创建视图。如果其他对象依赖于此视图，则可能会失败，或者可能导致过程函数失败，如果它们不修改为了考虑这些变化。"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:194
-#, fuzzy
 msgid "Do you wish to continue?"
-msgstr "继续？"
+msgstr "你是否希望继续？"
 
 #: pgadmin/browser/server_groups/servers/databases/schemas/views/static/js/view.js:234
-#, fuzzy
 msgid "Please enter view code."
-msgstr "请进入代码视图。"
+msgstr "请输入视图代码。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:27
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:41
@@ -5955,7 +5829,6 @@ msgid "Are you sure you want to disconnect the database - %s?"
 msgstr "您确实要断开数据库 %s 的连接吗？"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:340
-#, fuzzy
 msgid "System database?"
 msgstr "系统数据库？"
 
@@ -5988,32 +5861,28 @@ msgid "Default Privileges"
 msgstr "默认权限"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:461
-#, fuzzy
 msgid "Schema restriction"
-msgstr "架构限制"
+msgstr "模式限制"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:464
-#, fuzzy
 msgid "Note: Changes to the schema restriction will require the Schemas node in the browser to be refreshed before they will be shown."
-msgstr "注意：对架构限制的更改将要求在显示之前刷新浏览器中的架构节点。"
+msgstr "注意：对模式限制的更改将要求在显示之前刷新浏览器中的模式节点。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:483
-#, fuzzy
 msgid "Please refresh the Schemas node to make changes to the schema restriction take effect."
-msgstr "请刷新架构节点以使对架构限制的更改生效。"
+msgstr "请刷新模式节点以使对模式限制的更改生效。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:541
 msgid "Connect to database"
 msgstr "连接到数据库"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:567
-#, fuzzy
 msgid "Database already connected."
 msgstr "数据库已连接。"
 
 #: pgadmin/browser/server_groups/servers/databases/static/js/database.js:612
 #: pgadmin/static/js/alertify.pgadmin.defaults.js:158
-#, fuzzy, python-format
+#, python-format
 msgid "Error: Object not found - %s."
 msgstr "错误：未找到对象 - %s。"
 
@@ -6591,7 +6460,7 @@ msgstr "59"
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:154
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:159
 msgid "<any>"
-msgstr "<任何>"
+msgstr "<any>"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:153
 #: pgadmin/static/js/sqleditor/history/query_history_details.js:110
@@ -6667,9 +6536,8 @@ msgid "Repeat"
 msgstr "重复"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:359
-#, fuzzy
 msgid "Schedules are specified using a <strong>cron-style</strong> format.<br/><ul><li>For each selected time or date element, the schedule will execute.<br/>e.g. To execute at 5 minutes past every hour, simply select ‘05’ in the Minutes list box.<br/></li><li>Values from more than one field may be specified in order to further control the schedule.<br/>e.g. To execute at 12:05 and 14:05 every Monday and Thursday, you would click minute 05, hours 12 and 14, and weekdays Monday and Thursday.</li><li>For additional flexibility, the Month Days check list includes an extra Last Day option. This matches the last day of the month, whether it happens to be the 28th, 29th, 30th or 31st.</li></ul>"
-msgstr "使用 cron 样式 <strong>格式指定计划</strong> 。<br/><ul><li>对于每个选定的时间或日期元素，将执行计划。<br/>例如，要按每小时 5 分钟执行，只需在\"分钟\"列表框中选择\"05\"即可。<br/></li><li>可以指定多个字段的值，以进一步控制计划。<br/>例如，要每周一和周四的 12：05 和 14：05 执行，请单击第 05 分钟、第 12 小时和 14 小时以及星期一和星期四的工作日。</li><li>为提高灵活性，\"月日\"检查列表包括额外的\"最后一天\"选项。这与每月的最后一天匹配，无论是 28 日、29 日、30 日还是 31 日。</li></ul>"
+msgstr "调度规定使用 <strong>cron-style</strong>格式 。<br/><ul><li>对于每个选定的时间或日期元素，将执行计划。<br/>例如，要按每小时 5 分钟执行，只需在分钟列表框中选择\"05\"即可。<br/></li><li>可以指定来自多个字段的值，以便进一步控制调度。<br/>例如，要每周一和周四的 12:05 和14:05 执行，你可以点击第 05 分钟、第 12 小时和 14 小时以及星期一和星期四。</li><li>为提高灵活性，“月日“检查列表包括额外的“最后一天\"选项。这与每月的最后一天匹配，无论是 28 日、29 日、30 日还是 31 日。</li></ul>"
 
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:362
 #: pgadmin/browser/server_groups/servers/pgagent/schedules/static/js/pga_schedule.js:374
@@ -6731,7 +6599,7 @@ msgstr "pgAgent 任务"
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:55
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:60
 msgid "pgAgent Job..."
-msgstr "pgAgent 作业..."
+msgstr "pgAgent 任务..."
 
 #: pgadmin/browser/server_groups/servers/pgagent/static/js/pga_job.js:65
 msgid "Run now"
@@ -6842,10 +6710,10 @@ msgstr "连接类型"
 msgid "Remote"
 msgstr "远程"
 
+# 11.04，am917
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:174
-#, fuzzy
 msgid "Select <strong>Local</strong> if the job step will execute on the local database server, or <strong>Remote</strong> to specify a remote database server."
-msgstr "如果 <strong>作业</strong> 步骤将在本地数据库服务器上执行，请选择\"本地\"，或 <strong>选择\"远程</strong> \"以指定远程数据库服务器。"
+msgstr "如果任务步骤将在本地数据库服务器上执行请选择<strong>Local</strong>，或选择<strong>Remote</strong>以指定远程数据库服务器。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:180
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:190
@@ -6854,12 +6722,11 @@ msgstr "连接字符串"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:188
 msgid "Please select the database on which the job step will run."
-msgstr "请选择该任务将要运行的数据库。"
+msgstr "请选择该任务步骤将要运行的数据库。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:193
-#, fuzzy
 msgid "Please specify the connection string for the remote database server. Each parameter setting is in the form keyword = value. Spaces around the equal sign are optional. To write an empty value, or a value containing spaces, surround it with single quotes, e.g., keyword = 'a value'. Single quotes and backslashes within the value must be escaped with a backslash, i.e., ' and \\.<br>For more information, please see the documentation on <a href=\"https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING\" target=\"_blank\">libpq connection strings</a>."
-msgstr "请为远程数据库服务器指定连接字符串。每个参数设置都位于窗体关键字 = 值中。等号周围的空格是可选的。要写入空值或包含空格的值，请用单引号（例如关键字 =\"值\"）环绕它。值中的单引号和反斜杠必须用反斜杠转义，即\"和 \"。<br>有关详细信息，请参阅有关 <a href=\"https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING\" target=\"_blank\">libpq 连接字符串的文档</a>。"
+msgstr "请为远程数据库服务器指定连接字符串。每个参数的设置都是“关键字 = 值”的形式。等号周围的空格是可选的。要写入空值，或包含空格的值，请用单引号括起来，例如：关键字 ='值'。值中的单引号和反斜杠必须用反斜杠转义，也就是说 '和 \\。<br>更多详细信息，请参阅文档 <a href=\"https://www.postgresql.org/docs/current/libpq-connect.html#LIBPQ-CONNSTRING\" target=\"_blank\">libpq connection strings</a>。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:196
 msgid "On error"
@@ -6903,9 +6770,8 @@ msgid "Please specify code to execute."
 msgstr "请指定要执行的代码."
 
 #: pgadmin/browser/server_groups/servers/pgagent/steps/static/js/pga_jobstep.js:307
-#, fuzzy
 msgid "Please select valid on error option."
-msgstr "请选择\"错误时有效\"选项。"
+msgstr "请选择错误时有效 (valid on error)选项。"
 
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_job/sql/pre3.4/stats.sql:2
 #: pgadmin/browser/server_groups/servers/pgagent/templates/pga_jobstep/sql/pre3.4/stats.sql:2
@@ -6976,7 +6842,6 @@ msgid "Resource Group..."
 msgstr "资源组..."
 
 #: pgadmin/browser/server_groups/servers/resource_groups/static/js/resource_group.js:94
-#, fuzzy
 msgid "System resource group?"
 msgstr "系统资源组？"
 
@@ -7143,7 +7008,6 @@ msgstr "\n"
 "        ]\n"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:361
-#, fuzzy
 msgid "\n"
 "Configuration parameters/variables must be passed as an array of JSON objects\n"
 "in the following format in create mode:\n"
@@ -7156,8 +7020,8 @@ msgid "\n"
 "]"
 msgstr "\n"
 "配置参数/变量必须作为 JSON 对象的数组传递\n"
-"在创建模式下以以下格式显示：\n"
-"变量：|\n"
+"在创建模式下采用以下格式显示：\n"
+"变量:[{\n"
 "数据库： <database> 或 null，\n"
 "名称： <configuration>，\n"
 "值： <value>\n"
@@ -7166,7 +7030,6 @@ msgstr "\n"
 "]"
 
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:377
-#, fuzzy
 msgid "\n"
 "Configuration parameters/variables must be passed as an array of JSON objects\n"
 "in the following format in update mode:\n"
@@ -7195,22 +7058,22 @@ msgid "\n"
 msgstr "\n"
 "配置参数/变量必须作为 JSON 对象的数组传递\n"
 "在更新模式下采用以下格式：\n"
-"罗尔成员： *\n"
-"\"已添加\"： |\n"
+"角色成员:{\n"
+"'added': [{\n"
 "    数据库： <database> 或 null，\n"
 "    名称： <configuration>，\n"
 "    值： <value>\n"
 "    },\n"
 "    ...\n"
 "    ],\n"
-"\"已删除\"： |\n"
-"    数据库： <database> 或 null，\n"
-"    名称： <configuration>，\n"
-"    值： <value>\n"
+"'已删除': [{\n"
+"    数据库: <database> or null,\n"
+"    名称: <configuration>,\n"
+"    值: <value>\n"
 "    },\n"
 "    ...\n"
 "    ],\n"
-"\"已更新\"： |\n"
+"'已更新': [{\n"
 "    数据库： <database> 或 null，\n"
 "    名称： <configuration>，\n"
 "    值： <value>\n"
@@ -7249,7 +7112,6 @@ msgstr "在数据库服务器上找不到角色。"
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:832
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:842
 #: pgadmin/browser/server_groups/servers/roles/__init__.py:887
-#, fuzzy
 msgid "\n"
 "{0}"
 msgstr "\n"
@@ -7350,7 +7212,6 @@ msgid "Create roles?"
 msgstr "要创建角色吗?"
 
 #: pgadmin/browser/server_groups/servers/roles/static/js/role.js:452
-#, fuzzy
 msgid "System role?"
 msgstr "系统角色？"
 
@@ -7405,7 +7266,6 @@ msgid "At least one privilege should be selected."
 msgstr "应选定至少一个权限。"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:45
-#, fuzzy
 msgid "Security label must be specified."
 msgstr "必须指定安全标签。"
 
@@ -7455,13 +7315,12 @@ msgid "Disconnect server"
 msgstr "断开服务器连接"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:269
-#, fuzzy, python-format
+#, python-format
 msgid "Are you sure you want to disconnect the server %s?"
 msgstr "您确认要断开服务器 %s 的连接吗？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:273
 #: pgadmin/static/js/sqleditor/new_connection_dialog.js:255
-#, fuzzy
 msgid "Ok"
 msgstr "确定"
 
@@ -7567,7 +7426,6 @@ msgid "Server group"
 msgstr "服务器组"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:773
-#, fuzzy
 msgid "Shared Server Owner"
 msgstr "共享服务器所有者"
 
@@ -7618,14 +7476,12 @@ msgid "Connect now?"
 msgstr "现在连接？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:806
-#, fuzzy
 msgid "Shared?"
 msgstr "共享？"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:837
 #: pgadmin/browser/server_groups/servers/static/js/server.js:858
 #: pgadmin/browser/server_groups/servers/static/js/server.js:882
-#, fuzzy
 msgid "To apply changes to the connection configuration, please disconnect from the server and then reconnect."
 msgstr "若要对连接配置应用更改，请断开与服务器的连接，然后重新连接。"
 
@@ -7757,9 +7613,8 @@ msgid "Connect to Server"
 msgstr "连接到服务器"
 
 #: pgadmin/browser/server_groups/servers/static/js/server.js:1295
-#, fuzzy
 msgid "You have connected to a server version that is older than is supported by pgAdmin. This may cause pgAdmin to break in strange and unpredictable ways. Or a plague of frogs. Either way, you have been warned!"
-msgstr "您已连接到比 pgAdmin 支持的更旧的服务器版本。这可能会导致 pgAdmin 以奇怪和不可预知的方式中断。或青蛙的瘟疫。无论哪种方式，你都警告过！"
+msgstr "您已连接到比 pgAdmin 支持的更旧的服务器版本。这可能会导致 pgAdmin 以异常和不可预知的方式中断。或青蛙的瘟疫。无论如何，你都会被警告！"
 
 #: pgadmin/browser/server_groups/servers/static/js/variable.js:201
 msgid "Please select a parameter name."
@@ -7840,7 +7695,6 @@ msgid "Users"
 msgstr "用户"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:264
-#, fuzzy
 msgid "Please select tablespace."
 msgstr "请选择表空间。"
 
@@ -7849,16 +7703,15 @@ msgid "Move objects..."
 msgstr "移动对象..."
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:283
-#, fuzzy, python-format
+#, python-format
 msgid "Are you sure you wish to move the objects from %s to %s?"
-msgstr "您确认要将对象从 %s 移动到 %s？"
+msgstr "您确认要将对象从%s 移动到 %s？"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:348
 msgid "Location"
 msgstr "位置"
 
 #: pgadmin/browser/server_groups/servers/tablespaces/static/js/tablespace.js:363
-#, fuzzy
 msgid "System tablespace?"
 msgstr "系统表空间？"
 
@@ -7867,9 +7720,8 @@ msgid "Location cannot be empty."
 msgstr "位置不能为空。"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/password.html:5
-#, fuzzy
 msgid "Please enter the password for the user to connect the server - \"{0}\""
-msgstr "请输入用户连接服务器的密码 - \"{0}\""
+msgstr "请输入用户连接服务器的密码- \"{0}\""
 
 #: pgadmin/browser/server_groups/servers/templates/servers/password.html:7
 msgid "Please enter the password for the user '{0}' to connect the server - \"{1}\""
@@ -7878,7 +7730,6 @@ msgstr "请输入用户'{0}'的密码以连接服务器 - '{1}'"
 #: pgadmin/browser/server_groups/servers/templates/servers/password.html:24
 #: pgadmin/browser/server_groups/servers/templates/servers/tunnel_password.html:20
 #: pgadmin/browser/server_groups/servers/templates/servers/tunnel_password.html:44
-#, fuzzy
 msgid "Save Password"
 msgstr "保存密码"
 
@@ -7891,9 +7742,8 @@ msgid "SSH Tunnel password for the user '{0}' to connect the server \"{1}\""
 msgstr "用户 \"{0}\" 连接服务器 \"{1}\" 的 SSH 隧道密码"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/tunnel_password.html:28
-#, fuzzy
 msgid "Database server password for the user to connect the server \"{0}\""
-msgstr "数据库服务器密码，供用户连接服务器\"{0}\""
+msgstr "用户连接服务器\"{0}\"的数据库服务器密码"
 
 #: pgadmin/browser/server_groups/servers/templates/servers/tunnel_password.html:30
 msgid "Database server password for the user '{0}' to connect the server \"{1}\""
@@ -8022,9 +7872,8 @@ msgid "Please select an object in the tree view."
 msgstr "请在树视图中选择一个对象。"
 
 #: pgadmin/browser/static/js/browser.js:267
-#, fuzzy
 msgid "SQL Code"
-msgstr "如果选择 *SQL*，请使用 *代码* 选项卡为该步骤提供 SQL 代码。"
+msgstr "SQL 代码"
 
 #: pgadmin/browser/static/js/browser.js:272
 msgid "Dependencies"
@@ -8064,7 +7913,6 @@ msgid "Reset Master Password"
 msgstr "重置主密码"
 
 #: pgadmin/browser/static/js/browser.js:664
-#, fuzzy
 msgid "This will remove all the saved passwords. This will also remove established connections to the server and you may need to reconnect again. Do you wish to continue?"
 msgstr "这将删除所有保存的密码。这还将删除与服务器的已建立连接，您可能需要重新连接。是否要继续？"
 
@@ -8092,9 +7940,8 @@ msgstr "查询工具..."
 #: pgadmin/tools/search_objects/static/js/search_objects.js:38
 #: pgadmin/tools/search_objects/static/js/search_objects.js:46
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog.js:35
-#, fuzzy
 msgid "Search Objects..."
-msgstr "搜索对象 - "
+msgstr "搜索对象..."
 
 #: pgadmin/browser/static/js/collection.js:178
 #: pgadmin/misc/file_manager/static/js/select_dialogue.js:89
@@ -8113,7 +7960,6 @@ msgstr "选择"
 #: pgadmin/tools/debugger/static/js/direct.js:1104
 #: pgadmin/tools/debugger/static/js/direct.js:1182
 #: pgadmin/tools/debugger/static/js/direct.js:1268
-#, fuzzy
 msgid "No data found"
 msgstr "没有找到数据"
 
@@ -8200,7 +8046,7 @@ msgid "Properties..."
 msgstr "属性..."
 
 #: pgadmin/browser/static/js/node.js:146
-#, fuzzy, python-format
+#, python-format
 msgid "Remove %s"
 msgstr "移除 %s"
 
@@ -8210,7 +8056,6 @@ msgid "%s Script"
 msgstr "%s 脚本"
 
 #: pgadmin/browser/static/js/node.js:228
-#, fuzzy
 msgid "Scripts"
 msgstr "脚本"
 
@@ -8253,34 +8098,34 @@ msgid "The %s \"%s\" cannot be dropped."
 msgstr "不能删除%s \"%s\" 。"
 
 #: pgadmin/browser/static/js/node.js:795
-#, fuzzy, python-format
+#, python-format
 msgid "Are you sure you want to remove %s \"%s\"?"
-msgstr "是否确实要删除\"%s%s\" ？"
+msgstr "是否确实要删除 %s \"%s\"?"
 
 #: pgadmin/browser/static/js/node.js:796
-#, fuzzy, python-format
+#, python-format
 msgid "Remove %s?"
-msgstr "删除%s？"
+msgstr "删除 %s?"
 
 #: pgadmin/browser/static/js/node.js:798
-#, python-format
+#, fuzzy, python-format
 msgid "Are you sure you want to drop %s \"%s\"?"
-msgstr "你是否确定你要丢弃 %s \"%s\"?"
+msgstr ""
 
 #: pgadmin/browser/static/js/node.js:799
-#, fuzzy, python-format
+#, python-format
 msgid "Drop %s?"
-msgstr "确定要删除 %s \"%s\"和所有依赖它的对象吗？"
+msgstr "丢弃 %s?"
 
 #: pgadmin/browser/static/js/node.js:805
-#, fuzzy, python-format
+#, python-format
 msgid "The %s \"%s\" cannot be dropped/removed."
-msgstr "%s \"%s\"不能移除或删除。"
+msgstr "%s \"%s\"不能被丢弃/删除。"
 
 #: pgadmin/browser/static/js/node.js:837
-#, fuzzy, python-format
+#, python-format
 msgid "Error dropping/removing %s: \"%s\""
-msgstr "移除/删除 %s错误：\"%s\""
+msgstr "错误丢弃/删除%s: \"%s\""
 
 #: pgadmin/browser/static/js/node.js:1231
 #: pgadmin/browser/static/js/node.js:1233
@@ -8296,7 +8141,6 @@ msgstr "此对象类型的 SQL 帮助。"
 #: pgadmin/browser/static/js/node.js:1299
 #: pgadmin/browser/static/js/node.js:1333
 #: pgadmin/browser/static/js/node.js:1363
-#, fuzzy
 msgid "Warning"
 msgstr "警告"
 
@@ -8323,7 +8167,6 @@ msgid "Reset the fields on this dialog."
 msgstr "重置此对话框上的字段。"
 
 #: pgadmin/browser/static/js/node.js:1546
-#, fuzzy
 msgid "Changes will be lost. Are you sure you want to reset?"
 msgstr "更改将丢失。您确认要重置吗？"
 
@@ -8341,7 +8184,6 @@ msgid "Save this object."
 msgstr "保存此对象。"
 
 #: pgadmin/browser/static/js/node.js:1705
-#, fuzzy
 msgid "Changes will be lost. Are you sure you want to close the dialog?"
 msgstr "更改将丢失。您确认要关闭对话框？"
 
@@ -8362,7 +8204,6 @@ msgstr "取消全选"
 #: pgadmin/browser/static/js/node.ui.js:558
 #: pgadmin/browser/static/js/node.ui.js:573
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:100
-#, fuzzy
 msgid "Select an item..."
 msgstr "选择一个项目..."
 
@@ -8406,7 +8247,6 @@ msgstr "左侧面板徽标"
 #: pgadmin/tools/backup/static/js/backup_dialog_wrapper.js:118
 #: pgadmin/tools/import_export/static/js/import_export.js:635
 #: pgadmin/tools/restore/static/js/restore_dialog_wrapper.js:110
-#, fuzzy
 msgid "Close error bar"
 msgstr "关闭错误栏"
 
@@ -8443,32 +8283,29 @@ msgid "Finish"
 msgstr "完成"
 
 #: pgadmin/browser/templates/browser/browser.html:2
-#, fuzzy
 msgid "Your browser was detected as <strong>{0}</strong> version\n"
 "    <strong>{1}</strong>, which is either deprecated or not supported by\n"
 "    pgAdmin 4."
-msgstr "您的浏览器被检测为 <strong>{0}</strong> 版本\n"
-"    <strong>{1}</strong>，该被弃用或不支持\n"
-"    pgAdmin 4."
+msgstr "你的浏览器被检测为 <strong>{0}</strong> 版本\n"
+"    <strong>{1}</strong>，已经被弃用或不被pgAdmin 4\n"
+"    .支持。"
 
 #: pgadmin/browser/templates/browser/browser.html:6
-#, fuzzy
 msgid "Your browser was detected as <strong>{0}</strong> version\n"
 "    <strong>{1}</strong>, which pgAdmin has not been tested with. pgAdmin may\n"
 "    not work as expected, and any issues reported when using this browser may\n"
 "    not be fixed."
-msgstr "您的浏览器被检测为 <strong>{0}</strong> 版本\n"
-"    <strong>{1}</strong>，哪个 pgAdmin 尚未测试过。\n"
-"    无法如预期的那样工作，并且使用此浏览器时报告的任何问题可能\n"
-"    不是固定的。"
+msgstr "你的浏览器被检测为 <strong>{0}</strong> 版本\n"
+"    <strong>{1}</strong>，pgAdmin尚未测试过。\n"
+"    pgAdmin或许无法如预期的那样工作，并且使用此浏览器时报告的一些问题可能\n"
+"    还没有被解决。"
 
 #: pgadmin/browser/templates/browser/browser.html:11
-#, fuzzy
 msgid "Please visit the <a class=\"alert-link\"\n"
 "    href=\"https://www.pgadmin.org/faq/#11\" target=\"_new\">FAQ</a> to see the\n"
 "    supported browsers."
 msgstr "请访问 <a class=\"alert-link\"\n"
-"    href=\"https://www.pgadmin.org/faq/#11\" target=\"_new\">常见问题</a> 解答，查看\n"
+"    href=\"https://www.pgadmin.org/faq/#11\" target=\"_new\">FAQ</a>，以查看\n"
 "    支持的浏览器。"
 
 #: pgadmin/browser/templates/browser/index.html:98
@@ -8508,9 +8345,8 @@ msgid "Please click <a class=\"alert-link\" href=\"{0}\" target=\"_new\">here</a
 msgstr "请点击 <a class=\"alert-link\" href=\"{0}\" target=\"_new\">这里</a> 了解更多信息."
 
 #: pgadmin/browser/templates/browser/js/messages.js:22
-#, fuzzy
 msgid "Click here for details."
-msgstr "如果备份成功，弹出窗口将确认成功。单击 *单击此处查看弹出窗口上的详细信息*以启动 *进程观察器*。*进程观察器* 记录与备份关联的所有活动，并提供用于故障排除的其他信息。"
+msgstr "点击这里了解详情。"
 
 #: pgadmin/browser/templates/browser/js/messages.js:23
 #: pgadmin/static/js/backform.pgadmin.js:1996
@@ -8518,34 +8354,32 @@ msgid "General"
 msgstr "常规"
 
 #: pgadmin/browser/templates/browser/js/messages.js:25
-#, fuzzy
 msgid "Definition incomplete"
-msgstr "定义不完整。"
+msgstr "定义不完整"
 
 #: pgadmin/browser/templates/browser/js/messages.js:26
-#, fuzzy
 msgid "Nothing changed"
-msgstr "一切都没有改变"
+msgstr "一切没有改变"
 
 #: pgadmin/browser/templates/browser/js/messages.js:27
-#, fuzzy, python-format
+#, python-format
 msgid "'%s' must be an integer."
-msgstr "\"%s\"必须是整数。"
+msgstr "'%s' 必须是整数。"
 
 #: pgadmin/browser/templates/browser/js/messages.js:28
-#, fuzzy, python-format
+#, python-format
 msgid "'%s' must be a numeric."
-msgstr "\"%s\"必须是数字。"
+msgstr "'%s' 必须是数字。"
 
 #: pgadmin/browser/templates/browser/js/messages.js:29
-#, fuzzy, python-format
+#, python-format
 msgid "'%s' must be greater than or equal to %s."
-msgstr "\"%s\"必须大于或等于%s。"
+msgstr "'%s'必须大于或等于%s。"
 
 #: pgadmin/browser/templates/browser/js/messages.js:30
-#, fuzzy, python-format
+#, python-format
 msgid "'%s' must be less than or equal to %s."
-msgstr "\"%s\"必须小于或等于%s。"
+msgstr "'%s'必须小于或等于%s。"
 
 #: pgadmin/browser/templates/browser/js/messages.js:33
 #: pgadmin/misc/sql/static/js/sql.js:102
@@ -8569,13 +8403,12 @@ msgstr "注意"
 #: pgadmin/misc/statistics/static/js/statistics.js:318
 #, python-format
 msgid "Error retrieving the information - %s"
-msgstr "检索信息-%s时，出错"
+msgstr "错误检索信息 - %s"
 
 #: pgadmin/browser/templates/browser/js/utils.js:111
 #: pgadmin/browser/templates/browser/js/utils.js:118
-#, fuzzy
 msgid "Error loading script - "
-msgstr "加载错误脚本 -"
+msgstr "错误加载脚本 - "
 
 #: pgadmin/dashboard/__init__.py:57
 msgid "Dashboard"
@@ -8648,14 +8481,12 @@ msgid "If set to True, tooltip will appear on mouse hover on the graph lines giv
 msgstr "如果设置为 True, 则工具提示将显示在提供数据点详细信息的图形线上的鼠标悬停上"
 
 #: pgadmin/dashboard/__init__.py:202
-#, fuzzy
 msgid "Please connect to the selected {0} to view the table."
-msgstr "请连接到所选{0}以查看表。"
+msgstr "请连接到所选 {0} 以查看表。"
 
 #: pgadmin/dashboard/__init__.py:207
-#, fuzzy
 msgid "Please connect to the selected {0} to view the graph."
-msgstr "请连接到所选{0}查看图形。"
+msgstr "请连接到所选 {0} 查看图形。"
 
 #: pgadmin/dashboard/__init__.py:449 pgadmin/dashboard/__init__.py:476
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:498
@@ -8663,10 +8494,12 @@ msgid "Failed"
 msgstr "失败"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:209
+#, fuzzy
 msgid "Please connect to the selected server to view the graph."
 msgstr "请连接选取的服务器以浏览图形。"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:211
+#, fuzzy
 msgid "An error occurred whilst rendering the graph."
 msgstr "渲染图形时出错。"
 
@@ -8679,33 +8512,38 @@ msgid "Not connected to the server or the connection to the server has been clos
 msgstr "未连接到服务器或与服务器的连接已关闭。"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:286
-#, fuzzy
 msgid " seconds ago"
-msgstr " 秒前"
+msgstr " 秒之前"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:335
+#, fuzzy
 msgid "Database sessions"
 msgstr "数据库会话"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:335
+#, fuzzy
 msgid "Server sessions"
 msgstr "服务器会话"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:341
+#, fuzzy
 msgid "Transactions per second"
 msgstr "事务每秒"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:349
+#, fuzzy
 msgid "Tuples in"
 msgstr "元组入"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:355
+#, fuzzy
 msgid "Tuples out"
 msgstr "元组出"
 
 #: pgadmin/dashboard/static/js/Graphs.jsx:361
+#, fuzzy
 msgid "Block I/O"
-msgstr "阻断I/O"
+msgstr "数据块I/O"
 
 #: pgadmin/dashboard/static/js/dashboard.js:45
 #: pgadmin/dashboard/static/js/dashboard.js:46
@@ -8896,38 +8734,32 @@ msgid "Description"
 msgstr "描述"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1125
-#, fuzzy
 msgid "You cannot cancel background worker processes."
-msgstr "不能取消后台工作进程。"
+msgstr "你不能取消后台工作进程。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1127
-#, fuzzy
 msgid "You cannot terminate background worker processes."
-msgstr "不能终止后台工作进程。"
+msgstr "你不能终止后台工作进程。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1135
-#, fuzzy
 msgid "You are not allowed to cancel the main active session."
-msgstr "不允许取消主活动会话。"
+msgstr "你不被允许取消主活动会话。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1137
-#, fuzzy
 msgid "You are not allowed to terminate the main active session."
-msgstr "不允许终止主活动会话。"
+msgstr "你不被允许终止主活动会话。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1144
 msgid "The session is already in idle state."
 msgstr "会话已处于空闲状态。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1156
-#, fuzzy
 msgid "Superuser privileges are required to cancel another users query."
-msgstr "取消其他用户查询需要超级用户权限。"
+msgstr "取消其他用户的查询需要超级用户权限。"
 
 #: pgadmin/dashboard/static/js/dashboard.js:1158
-#, fuzzy
 msgid "Superuser privileges are required to terminate another users query."
-msgstr "终止其他用户查询需要超级用户权限。"
+msgstr "终止其他用户的查询需要超级用户权限。"
 
 #: pgadmin/dashboard/templates/dashboard/database_dashboard.html:5
 #: pgadmin/dashboard/templates/dashboard/server_dashboard.html:6
@@ -8955,7 +8787,6 @@ msgstr "准备事务"
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:718
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:77
 #: pgadmin/tools/user_management/static/js/user_management.js:879
-#, fuzzy
 msgid "Search"
 msgstr "搜索"
 
@@ -9151,19 +8982,16 @@ msgid "User language"
 msgstr "用户语言"
 
 #: pgadmin/misc/__init__.py:87
-#, fuzzy
 msgid "Theme"
-msgstr "主题"
+msgstr "模式"
 
 #: pgadmin/misc/__init__.py:88
-#, fuzzy
 msgid "Themes"
-msgstr "主题"
+msgstr "模式"
 
 #: pgadmin/misc/__init__.py:90
-#, fuzzy
 msgid "A refresh is required to apply the theme. Below is the preview of the theme"
-msgstr "应用主题需要刷新。下面是主题的预览"
+msgstr "应用模式需要刷新。下面是模式的预览"
 
 #: pgadmin/misc/bgprocess/processes.py:41
 msgid "Could not find a process with the specified ID."
@@ -9187,13 +9015,11 @@ msgstr "无法终止后台进程 \"{0}\""
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:197
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:212
-#, fuzzy
 msgid "error"
 msgstr "错误"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:197
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:212
-#, fuzzy
 msgid "fatal"
 msgstr "致命"
 
@@ -9219,12 +9045,10 @@ msgid "Failed (exit code: %s)."
 msgstr "失败 (退出代码: %s)。"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:250
-#, fuzzy
 msgid "Terminating the process..."
 msgstr "正在终止进程..."
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:328
-#, fuzzy
 msgid "More details..."
 msgstr "更多详情..."
 
@@ -9239,14 +9063,13 @@ msgid "seconds"
 msgstr "秒"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:410
-#, fuzzy, python-format
+#, python-format
 msgid "Process Watcher - %s"
 msgstr "进程观察器 - %s"
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:436
-#, fuzzy
 msgid "Loading process logs..."
-msgstr "正在加载进程日志..."
+msgstr "正在加载处理日志..."
 
 #: pgadmin/misc/bgprocess/static/js/bgprocess.js:649
 msgid "Execution time"
@@ -9254,7 +9077,6 @@ msgstr "执行时间"
 
 #: pgadmin/misc/dependencies/static/js/dependencies.js:102
 #: pgadmin/misc/dependents/static/js/dependents.js:103
-#, fuzzy
 msgid "field"
 msgstr "字段"
 
@@ -9315,29 +9137,25 @@ msgid "No permission to operate on specified path."
 msgstr "没有在指定路径上操作的权限。"
 
 #: pgadmin/misc/file_manager/__init__.py:398
-#, fuzzy
 msgid "Select File"
 msgstr "选择文件"
 
 #: pgadmin/misc/file_manager/__init__.py:404
-#, fuzzy
 msgid "Select Folder"
 msgstr "选择文件夹"
 
 #: pgadmin/misc/file_manager/__init__.py:410
-#, fuzzy
 msgid "Create File"
 msgstr "创建文件"
 
 #: pgadmin/misc/file_manager/__init__.py:417
-#, fuzzy
 msgid "Storage Manager"
-msgstr "存储管理器"
+msgstr "存储管理"
 
 #: pgadmin/misc/file_manager/__init__.py:691
 #: pgadmin/misc/file_manager/__init__.py:833
 msgid "'{0}' file does not exist."
-msgstr "\"{0}\" 文件不存在。"
+msgstr "'{0}' 文件不存在。"
 
 #: pgadmin/misc/file_manager/__init__.py:709
 msgid "Permission denied"
@@ -9362,7 +9180,6 @@ msgstr "检查访问权限时出错。"
 
 #: pgadmin/misc/file_manager/static/js/select_dialogue.js:25
 #: pgadmin/static/js/backform.pgadmin.js:2729
-#, fuzzy
 msgid "Select file"
 msgstr "选择文件"
 
@@ -9388,7 +9205,6 @@ msgid "Format"
 msgstr "格式"
 
 #: pgadmin/misc/file_manager/static/js/utility.js:1553
-#, fuzzy
 msgid "Drop files here to upload."
 msgstr "将文件拖放到此处上传。"
 
@@ -9429,105 +9245,87 @@ msgid "Are you sure you want to replace this file?"
 msgstr "确定要替换此文件吗？"
 
 #: pgadmin/misc/static/explain/js/explain.js:136
-#, fuzzy
 msgid "#"
 msgstr "#"
 
 #: pgadmin/misc/static/explain/js/explain.js:138
-#, fuzzy
 msgid "Node"
 msgstr "节点"
 
 #: pgadmin/misc/static/explain/js/explain.js:140
-#, fuzzy
 msgid "Timings"
-msgstr "时间"
+msgstr "计时(Timings)"
 
 #: pgadmin/misc/static/explain/js/explain.js:142
-#, fuzzy
 msgid "Rows"
 msgstr "行"
 
 #: pgadmin/misc/static/explain/js/explain.js:144
-#, fuzzy
 msgid "Loops"
 msgstr "循环"
 
 #: pgadmin/misc/static/explain/js/explain.js:153
-#, fuzzy
 msgid "Exclusive"
 msgstr "独占的"
 
 #: pgadmin/misc/static/explain/js/explain.js:155
-#, fuzzy
 msgid "Inclusive"
 msgstr "包含"
 
 #: pgadmin/misc/static/explain/js/explain.js:157
-#, fuzzy
 msgid "Rows X"
 msgstr "行 X"
 
 #: pgadmin/misc/static/explain/js/explain.js:159
-#, fuzzy
 msgid "Actual"
 msgstr "实际"
 
 #: pgadmin/misc/static/explain/js/explain.js:161
-#, fuzzy
 msgid "Plan"
 msgstr "计划"
 
 #: pgadmin/misc/static/explain/js/explain.js:196
-#, fuzzy
 msgid "Statistics per Node Type"
 msgstr "每个节点类型的统计信息"
 
 #: pgadmin/misc/static/explain/js/explain.js:203
 #: pgadmin/misc/static/explain/js/explain.js:233
-#, fuzzy
 msgid "Node type"
 msgstr "节点类型"
 
 #: pgadmin/misc/static/explain/js/explain.js:205
 #: pgadmin/misc/static/explain/js/explain.js:235
-#, fuzzy
 msgid "Count"
 msgstr "计数"
 
 #: pgadmin/misc/static/explain/js/explain.js:207
-#, fuzzy
 msgid "Time spent"
 msgstr "时间花费"
 
 #: pgadmin/misc/static/explain/js/explain.js:209
 #: pgadmin/misc/static/explain/js/explain.js:229
-#, fuzzy, python-format
+#, python-format
 msgid "%% of query"
 msgstr "查询的%%"
 
 #: pgadmin/misc/static/explain/js/explain.js:216
-#, fuzzy
 msgid "Statistics per Table"
 msgstr "每个表的统计信息"
 
 #: pgadmin/misc/static/explain/js/explain.js:225
-#, fuzzy
 msgid "Scan count"
-msgstr "扫描总数"
+msgstr "扫描计数"
 
 #: pgadmin/misc/static/explain/js/explain.js:237
-#, fuzzy
 msgid "Sum of times"
-msgstr "合计次数"
+msgstr "次数的总和"
 
 #: pgadmin/misc/static/explain/js/explain.js:239
-#, fuzzy, python-format
+#, python-format
 msgid "%% of table"
-msgstr "表"
+msgstr "表的%%"
 
 #: pgadmin/misc/static/explain/js/explain.js:493
-#, fuzzy
 msgid "Join Filter"
 msgstr "加入过滤器"
 
@@ -9535,96 +9333,78 @@ msgstr "加入过滤器"
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:60
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:61
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:328
-#, fuzzy
 msgid "Filter"
-msgstr "筛选"
+msgstr "过滤器"
 
 #: pgadmin/misc/static/explain/js/explain.js:502
-#, fuzzy
 msgid "Index Cond"
 msgstr "索引 Cond"
 
 #: pgadmin/misc/static/explain/js/explain.js:506
-#, fuzzy
 msgid "Hash Cond"
 msgstr "哈希Cond"
 
 #: pgadmin/misc/static/explain/js/explain.js:511
-#, fuzzy
 msgid "Rows Removed by Filter"
-msgstr "按筛选器删除的行"
+msgstr "按过滤器删除的行"
 
 #: pgadmin/misc/static/explain/js/explain.js:518
-#, fuzzy
 msgid "Buckets"
 msgstr "复数"
 
 #: pgadmin/misc/static/explain/js/explain.js:519
-#, fuzzy
 msgid "Batches"
-msgstr "课程批次"
+msgstr "批次"
 
 #: pgadmin/misc/static/explain/js/explain.js:520
-#, fuzzy
 msgid "Memory Usage"
 msgstr "内存使用情况"
 
 #: pgadmin/misc/static/explain/js/explain.js:526
-#, fuzzy
 msgid "Recheck Cond"
 msgstr "重新检查Cond"
 
 #: pgadmin/misc/static/explain/js/explain.js:530
-#, fuzzy
 msgid "Heap Blocks"
-msgstr "Heap Blocks"
+msgstr "堆块(Heap Blocks)"
 
 #: pgadmin/misc/static/explain/js/explain.js:1224
-#, fuzzy
 msgid "Graphical"
 msgstr "图形"
 
 #: pgadmin/misc/static/explain/js/explain.js:1225
-#, fuzzy
 msgid "Analysis"
 msgstr "分析"
 
 #: pgadmin/misc/static/explain/js/explain.js:1293
 #: pgadmin/misc/static/explain/js/explain.js:1294
-#, fuzzy
 msgid "Zoom in"
 msgstr "放大"
 
 #: pgadmin/misc/static/explain/js/explain.js:1302
 #: pgadmin/misc/static/explain/js/explain.js:1303
-#, fuzzy
 msgid "Zoom to original"
 msgstr "缩放至原始"
 
 #: pgadmin/misc/static/explain/js/explain.js:1311
 #: pgadmin/misc/static/explain/js/explain.js:1312
-#, fuzzy
 msgid "Zoom out"
 msgstr "缩小"
 
 #: pgadmin/misc/static/explain/js/explain.js:1326
 #: pgadmin/misc/static/explain/js/explain.js:1327
-#, fuzzy
 msgid "Download"
 msgstr "下载"
 
 #: pgadmin/misc/static/explain/js/explain_statistics.js:38
-#, fuzzy
 msgid "JIT:"
 msgstr "JIT:"
 
 #: pgadmin/misc/static/explain/js/explain_statistics.js:52
-#, fuzzy
 msgid "Triggers:"
-msgstr "触发器"
+msgstr "触发器:"
 
 #: pgadmin/misc/static/explain/js/explain_statistics.js:91
-#, fuzzy
 msgid "Summary:"
 msgstr "概要："
 
@@ -9656,30 +9436,25 @@ msgid "Category is not selected."
 msgstr "未选择类别。"
 
 #: pgadmin/preferences/static/js/preferences.js:483
-#, fuzzy
 msgid "Browser tree refresh required"
 msgstr "需要浏览器树刷新"
 
 #: pgadmin/preferences/static/js/preferences.js:484
-#, fuzzy
 msgid "A browser tree refresh is required. Do you wish to refresh the tree?"
-msgstr "需要刷新浏览器树。是否要刷新树？"
+msgstr "需要刷新浏览器树。你是否希望刷新树？"
 
 #: pgadmin/preferences/static/js/preferences.js:500
 #: pgadmin/preferences/static/js/preferences.js:517
-#, fuzzy
 msgid "Later"
 msgstr "稍后"
 
 #: pgadmin/preferences/static/js/preferences.js:507
-#, fuzzy
 msgid "Refresh required"
 msgstr "需要刷新"
 
 #: pgadmin/preferences/static/js/preferences.js:508
-#, fuzzy
 msgid "A page refresh is required to apply the theme. Do you wish to refresh the page now?"
-msgstr "应用主题需要页面刷新。是否要现在刷新页面？"
+msgstr "应用模式需要页面刷新。是否要现在刷新页面？"
 
 #: pgadmin/settings/__init__.py:47
 msgid "Reset Layout"
@@ -9724,14 +9499,12 @@ msgstr "INTERNAL SERVER ERROR"
 #: pgadmin/static/js/backform.pgadmin.js:589
 #: pgadmin/static/js/backform.pgadmin.js:615
 #: pgadmin/static/js/backform.pgadmin.js:619
-#, fuzzy
 msgid "Toggle button"
-msgstr "开关按钮"
+msgstr "切换按钮"
 
 #: pgadmin/static/js/backform.pgadmin.js:1588
 #: pgadmin/static/js/backgrid.pgadmin.js:1182
 #: pgadmin/tools/user_management/static/js/user_management.js:881
-#, fuzzy
 msgid "Add"
 msgstr "添加"
 
@@ -9740,12 +9513,10 @@ msgid "No updates."
 msgstr "无更新。"
 
 #: pgadmin/static/js/backform.pgadmin.js:2206
-#, fuzzy
 msgid "Preview not available..."
 msgstr "预览不可用..."
 
 #: pgadmin/static/js/backform.pgadmin.js:3086
-#, fuzzy
 msgid "No color"
 msgstr "无色"
 
@@ -9759,7 +9530,6 @@ msgid "Edit row"
 msgstr "编辑行"
 
 #: pgadmin/static/js/backgrid.pgadmin.js:454
-#, fuzzy
 msgid "Edit object"
 msgstr "编辑对象"
 
@@ -9784,19 +9554,16 @@ msgid "Delete row"
 msgstr "删除行"
 
 #: pgadmin/static/js/backgrid.pgadmin.js:612
-#, fuzzy
 msgid "Are you sure you wish to clear this row?"
 msgstr "是否确实要清除此行？"
 
 #: pgadmin/static/js/backgrid.pgadmin.js:613
-#, fuzzy
 msgid "Clear Row"
 msgstr "清除行"
 
 #: pgadmin/static/js/backgrid.pgadmin.js:655
 #: pgadmin/static/js/sqleditor/macro_model.js:114
 #: pgadmin/static/js/sqleditor/macro_model.js:145
-#, fuzzy
 msgid "Clear row"
 msgstr "清除行"
 
@@ -9810,9 +9577,8 @@ msgid "Alt"
 msgstr "Alt"
 
 #: pgadmin/static/js/keyboard_shortcuts.js:91
-#, fuzzy
 msgid "accesskey"
-msgstr "<accesskey> \\ o</accesskey>"
+msgstr "访问键"
 
 #: pgadmin/static/js/sqleditor_utils.js:153
 msgid "An unexpected error occurred - ensure you are logged into the application."
@@ -9833,7 +9599,6 @@ msgid "Please select server or child node from the browser tree."
 msgstr "请从树浏览器中选择服务器或子节点。"
 
 #: pgadmin/static/js/alertify/dialog.js:108
-#, fuzzy
 msgid "Please select a database or its child node from the browser."
 msgstr "请从浏览器中选择数据库或其子节点。"
 
@@ -9883,7 +9648,6 @@ msgid "Format Type"
 msgstr "格式类型"
 
 #: pgadmin/static/js/browser/server_groups/servers/databases/external_tables/external_tables.js:62
-#, fuzzy
 msgid "Format Options"
 msgstr "格式选项"
 
@@ -9925,22 +9689,18 @@ msgid "Please enter a valid number"
 msgstr "请输入一个有效的数字"
 
 #: pgadmin/static/js/sqleditor/calculate_query_run_time.js:30
-#, fuzzy
 msgid "hr"
 msgstr "小时"
 
 #: pgadmin/static/js/sqleditor/calculate_query_run_time.js:31
-#, fuzzy
 msgid "min"
 msgstr "分钟"
 
 #: pgadmin/static/js/sqleditor/calculate_query_run_time.js:32
-#, fuzzy
 msgid "secs"
 msgstr "秒"
 
 #: pgadmin/static/js/sqleditor/calculate_query_run_time.js:33
-#, fuzzy
 msgid "msec"
 msgstr "毫秒"
 
@@ -9962,9 +9722,8 @@ msgstr "\"筛选器\" 选项"
 #: pgadmin/static/js/sqleditor/filter_dialog.js:142
 #: pgadmin/static/js/sqleditor/macro.js:117
 #: pgadmin/static/js/sqleditor/new_connection_dialog.js:126
-#, fuzzy
 msgid "Loading data..."
-msgstr "正在获取数据..."
+msgstr "加载数据..."
 
 #: pgadmin/static/js/sqleditor/filter_dialog.js:239
 msgid "Filter updated successfully"
@@ -10010,59 +9769,49 @@ msgid "Unsupported geometries not rendered."
 msgstr "未渲染不受支持的几何图形。"
 
 #: pgadmin/static/js/sqleditor/geometry_viewer.js:393
-#, fuzzy, python-format
+#, python-format
 msgid "Geometries with non-SRID %s not rendered."
-msgstr "未渲染具有非 SRID %s几何。"
+msgstr "具有non-SRID %s的几何没有被渲染。"
 
 #: pgadmin/static/js/sqleditor/macro.js:22
 #: pgadmin/static/js/sqleditor/macro.js:35
-#, fuzzy
 msgid "Manage Macros"
 msgstr "管理宏"
 
 #: pgadmin/static/js/sqleditor/macro.js:291
-#, fuzzy
 msgid "Macro updated successfully"
-msgstr "宏已成功更新"
+msgstr "宏更新成功"
 
 #: pgadmin/static/js/sqleditor/macro_model.js:67
-#, fuzzy
 msgid "Please enter macro name."
 msgstr "请输入宏名称。"
 
 #: pgadmin/static/js/sqleditor/macro_model.js:71
-#, fuzzy
 msgid "Please enter macro sql."
 msgstr "请输入宏 sql。"
 
 #: pgadmin/static/js/sqleditor/macro_model.js:87
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:383
-#, fuzzy
 msgid "Macros"
 msgstr "宏"
 
 #: pgadmin/static/js/sqleditor/macro_model.js:130
-#, fuzzy
 msgid "Clear All Rows"
 msgstr "清除所有行"
 
 #: pgadmin/static/js/sqleditor/macro_model.js:131
-#, fuzzy
 msgid "Are you sure you wish to clear all rows?"
-msgstr "是否确实要清除所有行？"
+msgstr "是否确定要清除所有行？"
 
 #: pgadmin/static/js/sqleditor/new_connection_dialog.js:30
-#, fuzzy
 msgid "Connect to server"
 msgstr "连接到服务器"
 
 #: pgadmin/static/js/sqleditor/new_connection_dialog_model.js:325
-#, fuzzy
 msgid "Please select database"
-msgstr "请选择一个数据库."
+msgstr "请选择一个数据库"
 
 #: pgadmin/static/js/sqleditor/new_connection_dialog_model.js:329
-#, fuzzy
 msgid "Please select user"
 msgstr "请选择用户"
 
@@ -10081,25 +9830,24 @@ msgstr "进程ID"
 msgid "Payload"
 msgstr "负载"
 
+# 11.05 -- 10：50
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:118
-#, fuzzy, python-format
+#, python-format
 msgid "Asynchronous notification \"%s\" with payload \"%s\" received from server process with PID %s"
-msgstr "使用 PID %s从服务器进程接收有效%s\"的异步通知\"%s"
+msgstr "异步通知信息 \"%s\" 带有有效负载\"%s\" ，从服务器进程PID %s被接收"
 
 #: pgadmin/static/js/sqleditor/query_tool_notifications.js:121
-#, fuzzy, python-format
+#, python-format
 msgid "Asynchronous notification \"%s\" received from server process with PID %s"
-msgstr "使用 PID %s从服务器进程接收的异步通知\"%s"
+msgstr "异步通知 \"%s\" 从服务器进程 PID %s被接收"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:30
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:31
-#, fuzzy
 msgid "Open File"
 msgstr "打开文件"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:35
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:36
-#, fuzzy
 msgid "Save File"
 msgstr "保存文件"
 
@@ -10115,62 +9863,52 @@ msgstr "查找"
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:46
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:46
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:79
-#, fuzzy
 msgid "Copy"
-msgstr "复制"
+msgstr "拷贝"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:50
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:51
-#, fuzzy
 msgid "Paste"
 msgstr "粘贴"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:55
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:56
-#, fuzzy
 msgid "Delete"
 msgstr "删除"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:65
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:66
-#, fuzzy
 msgid "Filter options"
 msgstr "过滤选项"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:70
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:71
-#, fuzzy
 msgid "Rows limit"
 msgstr "行限制"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:75
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:76
-#, fuzzy
 msgid "Execute options"
 msgstr "执行选项"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:80
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:81
-#, fuzzy
 msgid "Cancel query"
-msgstr "取消查询错误"
+msgstr "取消查询"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:85
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:86
-#, fuzzy
 msgid "Clear"
 msgstr "清除"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:93
-#, fuzzy
 msgid "Connection status (click for details)"
 msgstr "连接状态（单击查看详细信息）"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:99
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:101
-#, fuzzy
 msgid "Execute/Refresh"
-msgstr "*执行/刷新*"
+msgstr "执行/刷新"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:105
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:107
@@ -10181,19 +9919,16 @@ msgstr "解释"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:111
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:113
-#, fuzzy
 msgid "Explain Analyze"
-msgstr "解释优化查询"
+msgstr "解释分析"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:117
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:119
-#, fuzzy
 msgid "Download as CSV/TXT"
-msgstr "*下载为CSV/TXT*"
+msgstr "下载为CSV/TXT"
 
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:123
 #: pgadmin/static/js/sqleditor/query_tool_preferences.js:125
-#, fuzzy
 msgid "Save Data Changes"
 msgstr "保存数据更改"
 
@@ -10218,23 +9953,19 @@ msgid "Query tool"
 msgstr "查询工具"
 
 #: pgadmin/static/js/sqleditor/history/query_history.js:63
-#, fuzzy
 msgid "No history found"
 msgstr "未找到历史记录"
 
 #: pgadmin/static/js/sqleditor/history/query_history_details.js:90
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:74
-#, fuzzy
 msgid "Copied!"
-msgstr "复制！"
+msgstr "已拷贝！"
 
 #: pgadmin/static/js/sqleditor/history/query_history_details.js:113
-#, fuzzy
 msgid "Rows Affected"
-msgstr "%s 行受影响。"
+msgstr "行影响"
 
 #: pgadmin/static/js/sqleditor/history/query_history_details.js:131
-#, fuzzy
 msgid "Error Message"
 msgstr "错误信息"
 
@@ -10249,7 +9980,6 @@ msgid "Messages"
 msgstr "消息"
 
 #: pgadmin/static/js/sqleditor/history/query_history_entries.js:256
-#, fuzzy
 msgid "Show queries generated internally by pgAdmin?"
 msgstr "显示 pgAdmin 在内部生成的查询？"
 
@@ -10276,7 +10006,6 @@ msgid "Password Change"
 msgstr "更改密码"
 
 #: pgadmin/templates/security/change_password.html:16
-#, fuzzy
 msgid "Change Password Form"
 msgstr "更改密码表单"
 
@@ -10295,7 +10024,6 @@ msgid "Enter the email address for the user account you wish to recover the pass
 msgstr "输入您要恢复密码的用户帐户的电子邮件地址："
 
 #: pgadmin/templates/security/forgot_password.html:14
-#, fuzzy
 msgid "Forget Password Form"
 msgstr "忘记密码表单"
 
@@ -10316,7 +10044,6 @@ msgid "%(appname)s Password Reset"
 msgstr "%(appname)s 的密码重置"
 
 #: pgadmin/templates/security/reset_password.html:9
-#, fuzzy
 msgid "Reset Password Form"
 msgstr "重置密码表单"
 
@@ -10590,12 +10317,11 @@ msgid "Backup..."
 msgstr "备份..."
 
 #: pgadmin/tools/backup/static/js/backup_dialog.js:18
-#, fuzzy
 msgid "Backup Error"
 msgstr "备份错误"
 
 #: pgadmin/tools/backup/static/js/backup_dialog_wrapper.js:101
-#, fuzzy, python-format
+#, python-format
 msgid "Backup (%s: %s)"
 msgstr "备份 (%s: %s)"
 
@@ -10658,41 +10384,36 @@ msgid "No object selected."
 msgstr "未选择对象。"
 
 #: pgadmin/tools/datagrid/static/js/show_data.js:59
-#, fuzzy, python-format
+#, python-format
 msgid "Data Filter - %s"
-msgstr "数据筛选 - %s"
+msgstr "数据过滤器 - %s"
 
 #: pgadmin/tools/datagrid/static/js/show_data.js:132
-#, fuzzy
 msgid "Data Filter"
-msgstr "数据筛选"
+msgstr "数据过滤器"
 
 #: pgadmin/tools/datagrid/static/js/show_data.js:161
-#, fuzzy
 msgid "Use SHIFT + ENTER to apply filter..."
-msgstr "使用 SHIFT + 输入键应用筛选器。"
+msgstr "使用 SHIFT + ENTER 以应用筛选器。"
 
 #: pgadmin/tools/datagrid/static/js/show_data.js:196
-#, fuzzy
 msgid "Filter SQL"
-msgstr "筛选 SQL"
+msgstr "过滤 SQL"
 
 #: pgadmin/tools/datagrid/static/js/show_data.js:246
-#, fuzzy, python-format
+#, python-format
 msgid "Error filtering rows - %s."
-msgstr "错误筛选行 - %s。"
+msgstr "错误过滤行 - %s。"
 
 #: pgadmin/tools/datagrid/static/js/show_query_tool.js:53
 msgid "Query Tool Error"
 msgstr "查询工具错误"
 
 #: pgadmin/tools/datagrid/static/js/show_query_tool.js:92
-#, fuzzy
 msgid "Query tool launch error"
 msgstr "查询工具启动错误"
 
 #: pgadmin/tools/datagrid/static/js/show_query_tool.js:93
-#, fuzzy
 msgid "Please allow the pop-ups for this site to perform the desired action. If the main window of pgAdmin is closed then close this window and open a new pgAdmin session."
 msgstr "请允许此站点的弹出窗口执行所需的操作。如果 pgAdmin 的主窗口已关闭，则关闭此窗口并打开新的 pgAdmin 会话。"
 
@@ -10761,7 +10482,6 @@ msgid "Jump (Alt+G)"
 msgstr "跳转至 (Alt + G)"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:140
-#, fuzzy
 msgid "Copy with headers"
 msgstr "使用标题复制"
 
@@ -10810,17 +10530,14 @@ msgid " (Shift+Ctrl+/)"
 msgstr " (Shift+Ctrl+/)"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:203
-#, fuzzy
 msgid "Format SQL"
 msgstr "格式化 SQL"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:204
-#, fuzzy
 msgid " (Shift+Cmd+K)"
 msgstr " (Shift+Cmd+K)"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:206
-#, fuzzy
 msgid " (Shift+Ctrl+K)"
 msgstr " (Shift+Ctrl+K)"
 
@@ -10899,7 +10616,6 @@ msgid "Clear History"
 msgstr "清除历史记录"
 
 #: pgadmin/tools/datagrid/templates/datagrid/index.html:389
-#, fuzzy
 msgid "Manage Macros..."
 msgstr "管理宏..."
 
@@ -10963,9 +10679,9 @@ msgid "Switch Panel"
 msgstr "切换面板"
 
 #: pgadmin/tools/debugger/__init__.py:413
-#, fuzzy, python-format
+#, python-format
 msgid "The specified %s could not be found."
-msgstr "找不到%s的指定名称。"
+msgstr "找不到指定名称%s。"
 
 #: pgadmin/tools/debugger/__init__.py:425
 msgid "is not defined in package body."
@@ -11131,7 +10847,6 @@ msgstr "使用默认值？"
 
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:586
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:904
-#, fuzzy
 msgid "Clear All"
 msgstr "全部清除"
 
@@ -11145,7 +10860,6 @@ msgid "Debugger Listener Startup Error"
 msgstr "调试器监听器启动错误"
 
 #: pgadmin/tools/debugger/static/js/debugger_ui.js:947
-#, fuzzy
 msgid "Clear failed"
 msgstr "清除失败"
 
@@ -11261,61 +10975,52 @@ msgid "Stack"
 msgstr "堆栈"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1799
-#, fuzzy
 msgid "Debugger SQL editor"
 msgstr "调试器 SQL 编辑器"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1889
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:732
-#, fuzzy
 msgid "Timeout"
 msgstr "超时"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1889
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:732
-#, fuzzy
 msgid "Your session has timed out due to inactivity. Please close the window and login again."
 msgstr "由于不活动，您的会话已超时。请关闭窗口并再次登录。"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1903
 #: pgadmin/tools/debugger/static/js/direct.js:1904
 #: pgadmin/tools/debugger/templates/debugger/direct.html:59
-#, fuzzy
 msgid "Step into"
-msgstr "Step into"
+msgstr "单步执行(Step into)"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1908
 #: pgadmin/tools/debugger/static/js/direct.js:1909
 #: pgadmin/tools/debugger/templates/debugger/direct.html:67
-#, fuzzy
 msgid "Step over"
-msgstr "跳过"
+msgstr "跨过(Step over)"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1913
 #: pgadmin/tools/debugger/static/js/direct.js:1914
 #: pgadmin/tools/debugger/templates/debugger/direct.html:75
-#, fuzzy
 msgid "Continue/Start"
-msgstr "Accesskey (继续/启动)"
+msgstr "继续/启动"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1918
 #: pgadmin/tools/debugger/static/js/direct.js:1919
 #: pgadmin/tools/debugger/templates/debugger/direct.html:85
-#, fuzzy
 msgid "Toggle breakpoint"
-msgstr "设置断点"
+msgstr "切换断点"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1923
 #: pgadmin/tools/debugger/static/js/direct.js:1924
 #: pgadmin/tools/debugger/templates/debugger/direct.html:93
-#, fuzzy
 msgid "Clear all breakpoints"
-msgstr "Accesskey (清除所有断电)"
+msgstr "清除所有断点"
 
 #: pgadmin/tools/debugger/static/js/direct.js:1928
 #: pgadmin/tools/debugger/static/js/direct.js:1929
 #: pgadmin/tools/debugger/templates/debugger/direct.html:103
-#, fuzzy
 msgid "Stop"
 msgstr "停止"
 
@@ -11367,7 +11072,6 @@ msgid "Object Selection (step 1 of 3)"
 msgstr "对象选择 (第1步, 共3步)"
 
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:712
-#, fuzzy
 msgid "Please select the objects to grant privileges to from the list below."
 msgstr "请从下面的列表中选择要授予权限的对象。"
 
@@ -11388,9 +11092,8 @@ msgid "Final (Review Selection) (step 3 of 3)"
 msgstr "完成 (复审选择) (第3步, 共3步)"
 
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:1068
-#, fuzzy
 msgid "The SQL below will be executed on the database server to grant the selected privileges. Please click on <strong>Finish</strong> to complete the process."
-msgstr "以下 SQL 将在数据库服务器上执行，以授予所选权限。请单击\"完成 <strong>\"</strong> 以完成此过程。"
+msgstr "以下 SQL 将在数据库服务器上执行，以授予所选权限。请单击<strong>Finish</strong> 以完成此进程。"
 
 #: pgadmin/tools/grant_wizard/static/js/grant_wizard.js:1127
 msgid "Grant Wizard"
@@ -11456,7 +11159,6 @@ msgid "Columns to export"
 msgstr "要导出的列"
 
 #: pgadmin/tools/import_export/static/js/import_export.js:203
-#, fuzzy
 msgid "Columns for exporting..."
 msgstr "用于导出的列..."
 
@@ -11615,7 +11317,6 @@ msgid "CLUSTER"
 msgstr "CLUSTER"
 
 #: pgadmin/tools/maintenance/__init__.py:286
-#, fuzzy
 msgid "Maintenance job created."
 msgstr "已创建维护作业。"
 
@@ -11643,7 +11344,6 @@ msgstr "维护作业创建失败。不能使用此实用程序维护名称中包
 
 #: pgadmin/tools/maintenance/static/js/maintenance.js:279
 #: pgadmin/tools/restore/static/js/restore_dialog_wrapper.js:41
-#, fuzzy
 msgid "Object Help"
 msgstr "对象帮助"
 
@@ -11717,7 +11417,6 @@ msgid "Restore..."
 msgstr "还原中..."
 
 #: pgadmin/tools/restore/static/js/restore_dialog.js:18
-#, fuzzy
 msgid "Restore Error"
 msgstr "恢复错误"
 
@@ -11741,312 +11440,257 @@ msgstr "还原作业失败。"
 #: pgadmin/tools/schema_diff/__init__.py:42
 #: pgadmin/tools/schema_diff/static/js/schema_diff.js:40
 #: pgadmin/tools/schema_diff/static/js/schema_diff.js:88
-#, fuzzy
 msgid "Schema Diff"
-msgstr "架构差异功能允许您："
+msgstr "模式差异"
 
 #: pgadmin/tools/schema_diff/__init__.py:81
-#, fuzzy
 msgid "If set to True, the Schema Diff will be opened in a new browser tab."
-msgstr "如果设置为 True，将在新的浏览器选项卡中打开 Schema Diff 。"
+msgstr "如果设置为 真(True)，将在新的浏览器选项卡中打开 模式差异(Schema Diff) 。"
 
 #: pgadmin/tools/schema_diff/__init__.py:87
-#, fuzzy
 msgid "Ignore whitespaces"
 msgstr "忽略空格"
 
 #: pgadmin/tools/schema_diff/__init__.py:89
-#, fuzzy
 msgid "If set to True, then the Schema Diff tool ignores the whitespaces while comparing the string objects. Whitespace includes space, tabs, and CRLF"
-msgstr "如果设置为 True，则架构差异工具在比较字符串对象时忽略空白。空白包括空格、制表符和 CRLF"
+msgstr "如果设置为真(True)，则模式差异(Schema Diff)工具在比较字符串对象时忽略空格。空白包括空格、制表符和 CRLF"
 
 #: pgadmin/tools/schema_diff/__init__.py:97
-#, fuzzy
 msgid "Ignore owner"
 msgstr "忽略所有者"
 
 #: pgadmin/tools/schema_diff/__init__.py:99
-#, fuzzy
 msgid "If set to True, then the Schema Diff tool ignores the owner while comparing the objects."
-msgstr "如果设置为 True，则架构差异工具在比较对象时忽略所有者。"
+msgstr "如果设置为 真(True)，则模式差异(Schema Diff)工具在比较对象时忽略所有者。"
 
 #: pgadmin/tools/schema_diff/__init__.py:458
 #: pgadmin/tools/schema_diff/__init__.py:576
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:88
-#, fuzzy
 msgid "Comparing objects..."
-msgstr "正在比较对象..."
+msgstr "比较对象..."
 
 #: pgadmin/tools/schema_diff/__init__.py:543
-#, fuzzy
 msgid "Successfully compare the specified databases."
 msgstr "成功比较指定的数据库。"
 
 #: pgadmin/tools/schema_diff/__init__.py:620
-#, fuzzy
 msgid "Selected object is not supported for DDL comparison."
-msgstr "不支持 DDL 比较的选定对象。"
+msgstr "选定对象不支持 DDL 比较。"
 
 #: pgadmin/tools/schema_diff/__init__.py:644
-#, fuzzy
 msgid "Server(s) disconnected."
-msgstr "服务器已断开连接。"
+msgstr "服务器连接中断。"
 
 #: pgadmin/tools/schema_diff/__init__.py:647
-#, fuzzy
 msgid "Schema diff does not support the comparison between Postgres Server and EDB Postgres Advanced Server."
-msgstr "架构差异不支持 Postgres 服务器和 EDB Postgres 高级服务器之间的比较。"
+msgstr "模式差异不支持 Postgres 服务器和 EDB Postgres 高级服务器之间的比较。"
 
 #: pgadmin/tools/schema_diff/__init__.py:661
-#, fuzzy
 msgid "Source and Target database server must be of the same major version."
-msgstr "源服务器和目标数据库服务器必须具有相同的主要版本。"
+msgstr "源服务器和目标数据库服务器必须具有相同的主版本。"
 
 #: pgadmin/tools/schema_diff/__init__.py:706
-#, fuzzy
 msgid "Comparing {0}"
-msgstr "比较{0}"
+msgstr "比较 {0}"
 
 #: pgadmin/tools/schema_diff/__init__.py:718
-#, fuzzy
 msgid "Database Objects"
 msgstr "数据库对象"
 
 #: pgadmin/tools/schema_diff/__init__.py:758
-#, fuzzy
 msgid "Comparing {0} of schema '{1}'"
-msgstr "比较{0}\"{1}\""
+msgstr "比较schema '{1}'的 {0}"
 
 #: pgadmin/tools/schema_diff/model.py:35
-#, fuzzy
 msgid "Comparision started..."
 msgstr "开始比较..."
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:312
-#, fuzzy
 msgid "Select Source"
 msgstr "选择来源"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:316
-#, fuzzy
 msgid "Select Target"
 msgstr "选择目标"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:320
-#, fuzzy
 msgid "Compare"
 msgstr "比较"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:321
-#, fuzzy
 msgid "Generate Script"
 msgstr "生成脚本"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:341
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:358
-#, fuzzy
 msgid "Identical"
-msgstr "一致"
+msgstr "相同的"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:347
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:358
-#, fuzzy
 msgid "Different"
 msgstr "不同"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:353
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:358
-#, fuzzy
 msgid "Source Only"
-msgstr "仅源"
+msgstr "仅来源"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:359
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:358
-#, fuzzy
 msgid "Target Only"
 msgstr "仅目标"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:444
-#, fuzzy
 msgid "Source"
 msgstr "来源"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:445
-#, fuzzy
 msgid "Target"
 msgstr "目标"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.backform.js:446
-#, fuzzy
 msgid "Difference"
 msgstr "差异"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff.js:94
-#, fuzzy
 msgid "Schema Diff initialize error"
-msgstr "架构差异初始化错误"
+msgstr "模式差异初始化错误"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:78
-#, fuzzy
 msgid "DDL Comparison"
-msgstr "*DDL 比较* 面板显示三列："
+msgstr "DDL 比较"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:154
-#, fuzzy
 msgid "Selection Error"
 msgstr "选择错误"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:154
-#, fuzzy
 msgid "Please select source and target."
-msgstr "请选择源和目标。"
+msgstr "请选择来源和目标。"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:189
-#, fuzzy
 msgid "Schema compare error"
-msgstr "架构比较错误"
+msgstr "模式比较错误"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:204
-#, fuzzy
 msgid "-- This script was generated by a beta version of the Schema Diff utility in pgAdmin 4. \n"
-msgstr "-- 此脚本由 pgAdmin 4 中架构差异实用程序的测试版生成。\n"
+msgstr "-- 此脚本由 pgAdmin 4 中模式差异实用程序的贝塔测试版生成。\n"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:205
-#, fuzzy
 msgid "-- For the circular dependencies, the order in which Schema Diff writes the objects is not very sophisticated \n"
-msgstr "-- 对于循环依赖关系，架构差异写入对象的顺序不是非常复杂\n"
+msgstr "-- 对于循环依赖关系，模式差异写入对象的顺序不是非常复杂\n"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:206
-#, fuzzy
 msgid "-- and may require manual changes to the script to ensure changes are applied in the correct order.\n"
-msgstr "-- 可能需要手动更改脚本，以确保按正确的顺序应用更改。\n"
+msgstr "-- 可能需要手动更改脚本，以确保以正确的顺序应用更改。\n"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:207
-#, fuzzy
 msgid "-- Please report an issue for any failure with the reproduction steps. \n"
-msgstr "-- 报告任何故障问题请附带复现步骤。 \n"
+msgstr "-- 报告任何故障的问题，并附带复现步骤。 \n"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:250
-#, fuzzy
 msgid "Generate script error"
 msgstr "生成脚本错误"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:317
-#, fuzzy
 msgid "Comparison Result"
 msgstr "比较结果"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:499
-#, fuzzy
 msgid " (this may take a few minutes)..."
 msgstr " （这可能需要几分钟）..."
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:502
-#, fuzzy, python-format
+#, python-format
 msgid "%s completed."
-msgstr "%s已完成。"
+msgstr "%s 已完成。"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:506
-#, fuzzy
 msgid "Poll error"
 msgstr "轮询错误"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:607
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:668
-#, fuzzy
 msgid "Select server..."
-msgstr "请从树浏览器中选择服务器或子节点。"
+msgstr "选择服务器..."
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:628
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:688
-#, fuzzy
 msgid "Select database..."
 msgstr "选择数据库..."
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:743
-#, fuzzy
 msgid "Select the server and database for the source and target and click <strong>Compare</strong> to compare them."
-msgstr "选择源和目标的服务器和数据库，然后单击\" <strong>比较\"</strong> 以比较它们。"
+msgstr "选择来源和目标的服务器和数据库，然后点击<strong>Compare</strong>以比较它们。"
 
 #: pgadmin/tools/schema_diff/static/js/schema_diff_ui.js:777
-#, fuzzy
 msgid "Failed to connect the database."
-msgstr "无法连接数据库。"
+msgstr "连接数据库失败。"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog.js:16
-#, fuzzy
 msgid "Search Objects Error"
 msgstr "搜索对象错误"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog.js:33
-#, fuzzy
 msgid "Search Objects - "
 msgstr "搜索对象 - "
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:69
-#, fuzzy
 msgid "Type at least 3 characters"
 msgstr "键入至少 3 个字符"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:74
-#, fuzzy
 msgid "Object types"
 msgstr "对象类型"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:151
-#, fuzzy, python-format
+#, python-format
 msgid "%s match found."
-msgstr "%s匹配项。"
+msgstr "%s匹配发现。"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:151
-#, fuzzy, python-format
+#, python-format
 msgid "%s matches found."
-msgstr "%s匹配项。"
+msgstr "%s匹配发现。"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:214
-#, fuzzy
 msgid "Object name"
 msgstr "对象名称"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:226
-#, fuzzy
 msgid "Browser path"
 msgstr "浏览路径"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:266
-#, fuzzy, python-format
+#, python-format
 msgid "%s objects are disabled in the browser. You can enable them in the <a class=\"pref-dialog-link\">preferences dialog</a>."
-msgstr "%s 对象在浏览器中禁用。您可以在首选项对话框 <a class=\"pref-dialog-link\">中启用它们</a>。"
+msgstr "%s 对象在浏览器中禁用。你可以在 <a class=\"pref-dialog-link\">首选项对话框</a>中启用他们。"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:278
-#, fuzzy
 msgid "Locating..."
 msgstr "正在定位..."
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:285
-#, fuzzy
 msgid "Unable to locate this object in the browser."
-msgstr "无法在浏览器中找到此对象。"
+msgstr "无法在浏览器中定位此对象。"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:485
-#, fuzzy
 msgid "All types"
 msgstr "所有类型"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:605
-#, fuzzy
 msgid "Searching...."
 msgstr "正在搜索...."
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:627
-#, fuzzy
 msgid "No response received"
-msgstr "没有收到任何回应"
+msgstr "没有收到回应"
 
 #: pgadmin/tools/search_objects/static/js/search_objects_dialog_wrapper.js:631
-#, fuzzy, python-format
+#, python-format
 msgid "An unexpected occurred: %s"
-msgstr "意外发生：%s"
+msgstr "意外发生: %s"
 
 #: pgadmin/tools/sqleditor/__init__.py:372
 msgid "******* Error *******"
@@ -12070,7 +11714,6 @@ msgid "Error: {0}"
 msgstr "错误: {0}"
 
 #: pgadmin/tools/sqleditor/__init__.py:1343
-#, fuzzy
 msgid "Could not find the required parameter (query)."
 msgstr "找不到所需的参数（查询）。"
 
@@ -12079,9 +11722,8 @@ msgid "This feature has not been implemented for object type '{0}'."
 msgstr "尚未针对此对象类型 \"{0}\" 实现此功能。"
 
 #: pgadmin/tools/sqleditor/command.py:194
-#, fuzzy
 msgid "The specified object could not be found."
-msgstr "找不到指定的转换对象。 \n"
+msgstr "不能找到指定的对象。"
 
 #: pgadmin/tools/sqleditor/command.py:418
 msgid "Data cannot be saved for the current object."
@@ -12092,14 +11734,12 @@ msgid "Resultset is not updatable."
 msgstr "结果集不可更新。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:83
-#, fuzzy
 msgid "No data output. Execute a query to get output."
 msgstr "无数据输出。执行查询以获得输出。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:87
-#, fuzzy
 msgid "Use Explain/Explain analyze button to generate the plan for a query. Alternatively, you can also execute \"EXPLAIN (FORMAT JSON) [QUERY]\"."
-msgstr "使用解释/解释分析按钮生成查询计划。或者，您也可以执行\"解释（格式 JSON） [查询]\"。"
+msgstr "使用解释/解释分析按钮生成查询计划。或者，你也可以执行\"EXPLAIN (FORMAT JSON) [QUERY]\"。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:286
 msgid "Query Editor"
@@ -12126,27 +11766,22 @@ msgid "Geometry Viewer"
 msgstr "几何查看器"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:393
-#, fuzzy
 msgid "Panel Loading Error"
 msgstr "面板加载错误"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:394
-#, fuzzy
 msgid "Something went wrong while loading the panels. Please make sure to reset the layout (File > Reset Layout) for the better user experience."
-msgstr "加载面板时出现问题。请确保重置布局（文件>重置布局）以提供更好的用户体验。"
+msgstr "加载面板时出现问题。请确保重置布局 (File > Reset Layout) 以提供更好的用户体验。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:433
-#, fuzzy
 msgid "SQL editor"
 msgstr "SQL 编辑器"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:912
-#, fuzzy
 msgid "Editable column"
 msgstr "可编辑列"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:914
-#, fuzzy
 msgid "Read-only column"
 msgstr "只读列"
 
@@ -12178,13 +11813,12 @@ msgid "This will remove all of your query history from this and other sessions f
 msgstr "这将从此数据库的此会话和其他会话中删除所有查询历史记录。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2224
-#, fuzzy
 msgid "The pgAdmin browser window has been closed and the connection to the server is lost. Please close this window and open a new pgAdmin session."
 msgstr "该pgAdmin 浏览器窗口已关闭并且与服务器的连接已丢失，请关闭此窗口并打开一个新的 pgAdmin 会话。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2352
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2354
-#, fuzzy, python-format
+#, python-format
 msgid "Error fetching rows - %s."
 msgstr "获取行时错误 - %s。"
 
@@ -12217,13 +11851,12 @@ msgid "Continue"
 msgstr "继续"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2505
-#, fuzzy
 msgid "Obtaining connection..."
-msgstr "正在获取连接..."
+msgstr "获取连接..."
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2583
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:2585
-#, fuzzy, python-format
+#, python-format
 msgid "Error fetching SQL for script - %s."
 msgstr "为脚本提取 SQL 时出错 - %s。"
 
@@ -12250,9 +11883,8 @@ msgid "%s rows affected."
 msgstr "%s 行受影响。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3203
-#, fuzzy
 msgid "This query was generated by pgAdmin as part of a \"View/Edit Data\" operation"
-msgstr "此查询由 pgAdmin 作为\"查看/编辑数据\"操作的一部分生成"
+msgstr "此查询由 pgAdmin 生成，作为\"View/Edit Data\"操作的一部分"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3304
 msgid "Row(s) deleted."
@@ -12280,9 +11912,8 @@ msgid "Saving data changes was rolled back but the current transaction is still 
 msgstr "正在保存的数据更改已经回滚但是当前事务依然处于活动状态；之前的请求不受影响。"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3530
-#, fuzzy
 msgid "This query was generated by pgAdmin as part of a \"Save Data\" operation"
-msgstr "此查询由 pgAdmin 生成，作为\"保存数据\"操作的一部分"
+msgstr "此查询由 pgAdmin 生成，作为\"Save Data\"操作的一部分"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:3692
 msgid "Loading the file..."
@@ -12365,7 +11996,6 @@ msgid "The text has changed. Do you want to save changes?"
 msgstr "文本已更改。是否要保存更改？"
 
 #: pgadmin/tools/sqleditor/static/js/sqleditor.js:4741
-#, fuzzy
 msgid "The current transaction is not commited to the database. Do you want to commit or rollback the transaction?"
 msgstr "当前事务未提交到数据库。是否要提交或回滚事务？"
 
@@ -12390,22 +12020,18 @@ msgid "Failed to update the data on server."
 msgstr "未能更新服务器上的数据。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:35
-#, fuzzy
 msgid "Macro not found."
 msgstr "找不到宏。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:107
-#, fuzzy
 msgid "Nothing to update."
-msgstr "无需更新。"
+msgstr "不需要更新。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:169
-#, fuzzy
 msgid "Could not find the required parameter (name)."
 msgstr "找不到所需的参数（名称）。"
 
 #: pgadmin/tools/sqleditor/utils/macros.py:172
-#, fuzzy
 msgid "Could not find the required parameter (sql)."
 msgstr "找不到所需的参数 （sql）。"
 
@@ -12462,14 +12088,12 @@ msgid "Specifies whether or not to prompt user to save unsaved query on query to
 msgstr "指定是否提示用户在查询工具退出时保存未保存的查询。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:109
-#, fuzzy
 msgid "Sort View Data results by primary key columns?"
-msgstr "按主键列对查看数据结果进行排序？"
+msgstr "按主键列对视图数据结果进行排序？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:112
-#, fuzzy
 msgid "If set to True, data returned when using the View/Edit Data - All Rows option will be sorted by the Primary Key columns by default. When using the First/Last 100 Rows options, data is always sorted."
-msgstr "当 *排序视图数据按主键列显示时？* 如果设置为 *True*，则使用\"视图/编辑数据 - 所有行\"选项时返回的数据将默认由主键列排序。使用\"第一/最后 100 行\"选项时，始终对数据进行排序。"
+msgstr "如果设置为真(True)，当使用View/Edit Data 时数据会返回 - 所有行返回的数据将默认由主键列排序。当使用First/Last 100 行选项时，始终对数据进行排序。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:120
 msgid "Prompt to save unsaved data changes?"
@@ -12488,22 +12112,18 @@ msgid "Specifies whether or not to prompt user to commit or rollback an active t
 msgstr "指定是否提示用户在查询工具退出时提交或回滚活动事务。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:141
-#, fuzzy
 msgid "Plain text mode?"
 msgstr "纯文本模式？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:143
-#, fuzzy
 msgid "When set to True, keywords won't be highlighted and code folding will be disabled. Plain text mode will improve editor performance with large files."
 msgstr "设置为 True 时，不会突出显示关键字，并且将禁用代码折叠。纯文本模式将提高大型文件的编辑器性能。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:152
-#, fuzzy
 msgid "Code folding?"
 msgstr "代码折叠？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:154
-#, fuzzy
 msgid "Enable or disable code folding. In plain text mode, this will have no effect as code folding is always disabled in that mode. Disabling will improve editor performance with large files."
 msgstr "启用或禁用代码折叠。在纯文本模式下，这不起作用，因为代码折叠始终在该模式下禁用。禁用将提高大型文件的编辑器性能。"
 
@@ -12537,7 +12157,6 @@ msgstr "CSV引用"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:196
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:246
-#, fuzzy
 msgid "Strings"
 msgstr "字符串"
 
@@ -12551,9 +12170,8 @@ msgstr "CSV字段分隔符"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:222
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:272
-#, fuzzy
 msgid "Tab"
-msgstr "Tab"
+msgstr "标签(Tab)"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:231
 msgid "Replace null values with"
@@ -12688,84 +12306,68 @@ msgid "If set to True, Keywords will be displayed in upper case for auto complet
 msgstr "如果设置为 True, 关键字针对自动完成将以大写形式显示。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:692
-#, fuzzy
 msgid "Keyword case"
 msgstr "关键字大小写"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:697
-#, fuzzy
 msgid "Convert keywords to upper, lower, or capitalized casing."
-msgstr "将关键字转换为上、下或大写大小写。"
+msgstr "将关键字转换为大写、小写或首字母大写。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:704
-#, fuzzy
 msgid "Identifier case"
 msgstr "标识符大小写"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:709
-#, fuzzy
 msgid "Convert identifiers to upper, lower, or capitalized casing."
-msgstr "将标识符转换为上部、下部或大写大小写。"
+msgstr "将标识符转换为大写、小写或首字母大写。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:716
-#, fuzzy
 msgid "Strip comments?"
 msgstr "条带评论？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:718
-#, fuzzy
 msgid "If set to True, comments will be removed."
-msgstr "如果设置为 True，注释将被删除。"
+msgstr "如果设置为真(True)，注释将被删除。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:723
-#, fuzzy
 msgid "Re-indent?"
-msgstr "使用 *重新缩进对齐？* 选项指定应更改语句的缩进，并由关键字对齐。"
+msgstr "重-缩进？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:725
-#, fuzzy
 msgid "If set to True, the indentations of the statements are changed."
-msgstr "如果设置为 True，则语句的缩进将更改。"
+msgstr "如果设置为真(True)，则语句的缩进将更改。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:731
-#, fuzzy
 msgid "Re-indent aligned?"
-msgstr "重新缩进对齐？"
+msgstr "重-缩进对齐？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:733
-#, fuzzy
 msgid "If set to True, the indentations of the statements are changed, and statements are aligned by keywords."
-msgstr "如果设置为 True，则语句的缩进将更改，语句将按关键字对齐。"
+msgstr "如果设置为真(True)，则语句的缩进将更改，语句将按关键字对齐。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:740
-#, fuzzy
 msgid "Spaces around operators?"
 msgstr "操作符周围的空间？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:742
-#, fuzzy
 msgid "If set to True, spaces are used around all operators."
-msgstr "如果设置为 True，则所有运算符周围都使用空格。"
+msgstr "如果设置为真(True)，则所有运算符周围都使用空格。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:748
-#, fuzzy
 msgid "Comma-first notation?"
-msgstr "逗号第一符号？"
+msgstr "逗号-第一 符号？"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:750
-#, fuzzy
 msgid "If set to True, comma-first notation for column names is used."
-msgstr "如果设置为 True，则使用列名称的逗号第一符号。"
+msgstr "如果设置为真(True)，则列名称使用逗号-第一的符号。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:756
-#, fuzzy
 msgid "Wrap after N characters"
 msgstr "N 个字符后换行"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:758
-#, fuzzy
 msgid "The column limit (in characters) for wrapping comma-separated lists. If zero, it puts every item in the list on its own line."
-msgstr "换行逗号分隔列表的列限制（以字符表示）。如果为零，它将列表中的每个项目放在自己的行上。"
+msgstr "换行逗号-分隔列表的列限制（以字符表示）。如果为零，它将列表中的每个项目放在自己的行上。"
 
 #: pgadmin/tools/sqleditor/utils/query_tool_preferences.py:765
 msgid "Tab size"
@@ -12797,7 +12399,6 @@ msgid "User deleted."
 msgstr "删除用户。"
 
 #: pgadmin/tools/user_management/__init__.py:389
-#, fuzzy
 msgid "'{0}' is not allowed to modify."
 msgstr "'{0}'不允许修改。"
 
@@ -12810,9 +12411,8 @@ msgid "pgAdmin 4 login"
 msgstr "pgAdmin 4 登录"
 
 #: pgadmin/tools/user_management/static/js/user_management.js:296
-#, fuzzy
 msgid "Authentication source"
-msgstr "身份验证源"
+msgstr "身份验证来源"
 
 #: pgadmin/tools/user_management/static/js/user_management.js:342
 msgid "Email"
@@ -12869,7 +12469,7 @@ msgid "Passwords do not match for user %s."
 msgstr "用户'%s'密码不匹配用户."
 
 #: pgadmin/tools/user_management/static/js/user_management.js:595
-#, fuzzy, python-format
+#, python-format
 msgid "The username %s already exists."
 msgstr "用户名 %s 已存在。"
 
@@ -12920,7 +12520,6 @@ msgid "Cannot load user roles."
 msgstr "无法加载用户角色。"
 
 #: pgadmin/tools/user_management/static/js/user_management.js:925
-#, fuzzy
 msgid "Cannot load user Sources."
 msgstr "无法加载用户源。"
 
@@ -12950,12 +12549,10 @@ msgid "Keyboard shortcuts"
 msgstr "快捷键"
 
 #: pgadmin/utils/constants.py:23
-#, fuzzy
 msgid "Editor"
-msgstr "编辑"
+msgstr "编辑器"
 
 #: pgadmin/utils/constants.py:24
-#, fuzzy
 msgid "CSV/TXT Output"
 msgstr "CSV/TXT 输出"
 
@@ -12964,7 +12561,6 @@ msgid "Results grid"
 msgstr "结果网格"
 
 #: pgadmin/utils/constants.py:26
-#, fuzzy
 msgid "SQL formatting"
 msgstr "SQL 格式"
 
@@ -12973,12 +12569,10 @@ msgid "Transaction ID not found in the session."
 msgstr "事务 ID 在该会话中找不到."
 
 #: pgadmin/utils/constants.py:45
-#, fuzzy
 msgid "Error fetching role information from the database server."
 msgstr "从数据库服务器获取角色信息时出错。"
 
 #: pgadmin/utils/constants.py:48
-#, fuzzy
 msgid "Unable to fetch data."
 msgstr "无法获取数据。"
 
@@ -12987,7 +12581,6 @@ msgid "Connection to the SSH Tunnel for host '{0}' has been lost. Reconnect to t
 msgstr "与主机 \"{0}\" 的 SSH 隧道的连接已丢失。重新连接到数据库服务器。"
 
 #: pgadmin/utils/preferences.py:188
-#, fuzzy
 msgid "Invalid value for {0} option."
 msgstr "对选项{0}的值无效。"
 
@@ -13072,7 +12665,6 @@ msgid "Asynchronous notification \"{0}\" received from server process with PID {
 msgstr "从具有 PID {1} 的服务器进程接收到的异步通知 \"{0}\"\n"
 
 #: pgadmin/utils/driver/psycopg2/connection.py:1719
-#, fuzzy
 msgid "ERROR: "
 msgstr "错误: "
 
@@ -13097,7 +12689,6 @@ msgid "Context: "
 msgstr "上下文: "
 
 #: pgadmin/utils/driver/psycopg2/server_manager.py:42
-#, fuzzy
 msgid "Information is not available."
 msgstr "信息不可用。"
 
@@ -13106,17 +12697,15 @@ msgid "Could not find the specified database."
 msgstr "找不到指定的数据库。"
 
 #: pgadmin/utils/driver/psycopg2/server_manager.py:552
-#, fuzzy
 msgid "Failed to decrypt the SSH tunnel password.\n"
 "Error: {0}"
 msgstr "无法解密 SSH 隧道密码。\n"
-"错误：{0}"
+"错误: {0}"
 
 #: pgadmin/utils/driver/psycopg2/server_manager.py:579
 msgid "Failed to create the SSH tunnel.\n"
 "Error: {0}"
-msgstr "建立SSH隧道失败.\n"
-"Error: {0}"
+msgstr ""
 
 #~ msgid "Script - "
 #~ msgstr "脚本 - "
